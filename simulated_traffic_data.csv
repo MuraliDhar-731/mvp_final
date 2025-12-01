@@ -1,0 +1,2029 @@
+State,City,Timestamp,DayOfWeek,HourOfDay,VehicleCount
+CT,Hartford,2023-11-20 00:00:00,Monday,0,261
+CT,Hartford,2023-11-20 01:00:00,Monday,1,282
+CT,Hartford,2023-11-20 02:00:00,Monday,2,223
+CT,Hartford,2023-11-20 03:00:00,Monday,3,213
+CT,Hartford,2023-11-20 04:00:00,Monday,4,267
+CT,Hartford,2023-11-20 05:00:00,Monday,5,298
+CT,Hartford,2023-11-20 06:00:00,Monday,6,245
+CT,Hartford,2023-11-20 07:00:00,Monday,7,987
+CT,Hartford,2023-11-20 08:00:00,Monday,8,796
+CT,Hartford,2023-11-20 09:00:00,Monday,9,634
+CT,Hartford,2023-11-20 10:00:00,Monday,10,566
+CT,Hartford,2023-11-20 11:00:00,Monday,11,587
+CT,Hartford,2023-11-20 12:00:00,Monday,12,530
+CT,Hartford,2023-11-20 13:00:00,Monday,13,634
+CT,Hartford,2023-11-20 14:00:00,Monday,14,506
+CT,Hartford,2023-11-20 15:00:00,Monday,15,610
+CT,Hartford,2023-11-20 16:00:00,Monday,16,932
+CT,Hartford,2023-11-20 17:00:00,Monday,17,782
+CT,Hartford,2023-11-20 18:00:00,Monday,18,720
+CT,Hartford,2023-11-20 19:00:00,Monday,19,476
+CT,Hartford,2023-11-20 20:00:00,Monday,20,812
+CT,Hartford,2023-11-20 21:00:00,Monday,21,593
+CT,Hartford,2023-11-20 22:00:00,Monday,22,204
+CT,Hartford,2023-11-20 23:00:00,Monday,23,229
+CT,Hartford,2023-11-21 00:00:00,Tuesday,0,224
+CT,Hartford,2023-11-21 01:00:00,Tuesday,1,253
+CT,Hartford,2023-11-21 02:00:00,Tuesday,2,272
+CT,Hartford,2023-11-21 03:00:00,Tuesday,3,265
+CT,Hartford,2023-11-21 04:00:00,Tuesday,4,240
+CT,Hartford,2023-11-21 05:00:00,Tuesday,5,267
+CT,Hartford,2023-11-21 06:00:00,Tuesday,6,228
+CT,Hartford,2023-11-21 07:00:00,Tuesday,7,840
+CT,Hartford,2023-11-21 08:00:00,Tuesday,8,1048
+CT,Hartford,2023-11-21 09:00:00,Tuesday,9,647
+CT,Hartford,2023-11-21 10:00:00,Tuesday,10,672
+CT,Hartford,2023-11-21 11:00:00,Tuesday,11,606
+CT,Hartford,2023-11-21 12:00:00,Tuesday,12,708
+CT,Hartford,2023-11-21 13:00:00,Tuesday,13,687
+CT,Hartford,2023-11-21 14:00:00,Tuesday,14,470
+CT,Hartford,2023-11-21 15:00:00,Tuesday,15,545
+CT,Hartford,2023-11-21 16:00:00,Tuesday,16,827
+CT,Hartford,2023-11-21 17:00:00,Tuesday,17,842
+CT,Hartford,2023-11-21 18:00:00,Tuesday,18,669
+CT,Hartford,2023-11-21 19:00:00,Tuesday,19,779
+CT,Hartford,2023-11-21 20:00:00,Tuesday,20,766
+CT,Hartford,2023-11-21 21:00:00,Tuesday,21,642
+CT,Hartford,2023-11-21 22:00:00,Tuesday,22,222
+CT,Hartford,2023-11-21 23:00:00,Tuesday,23,223
+CT,Hartford,2023-11-22 00:00:00,Wednesday,0,249
+CT,Hartford,2023-11-22 01:00:00,Wednesday,1,220
+CT,Hartford,2023-11-22 02:00:00,Wednesday,2,238
+CT,Hartford,2023-11-22 03:00:00,Wednesday,3,280
+CT,Hartford,2023-11-22 04:00:00,Wednesday,4,255
+CT,Hartford,2023-11-22 05:00:00,Wednesday,5,219
+CT,Hartford,2023-11-22 06:00:00,Wednesday,6,157
+CT,Hartford,2023-11-22 07:00:00,Wednesday,7,788
+CT,Hartford,2023-11-22 08:00:00,Wednesday,8,793
+CT,Hartford,2023-11-22 09:00:00,Wednesday,9,625
+CT,Hartford,2023-11-22 10:00:00,Wednesday,10,548
+CT,Hartford,2023-11-22 11:00:00,Wednesday,11,619
+CT,Hartford,2023-11-22 12:00:00,Wednesday,12,629
+CT,Hartford,2023-11-22 13:00:00,Wednesday,13,608
+CT,Hartford,2023-11-22 14:00:00,Wednesday,14,584
+CT,Hartford,2023-11-22 15:00:00,Wednesday,15,550
+CT,Hartford,2023-11-22 16:00:00,Wednesday,16,891
+CT,Hartford,2023-11-22 17:00:00,Wednesday,17,1090
+CT,Hartford,2023-11-22 18:00:00,Wednesday,18,688
+CT,Hartford,2023-11-22 19:00:00,Wednesday,19,633
+CT,Hartford,2023-11-22 20:00:00,Wednesday,20,612
+CT,Hartford,2023-11-22 21:00:00,Wednesday,21,652
+CT,Hartford,2023-11-22 22:00:00,Wednesday,22,262
+CT,Hartford,2023-11-22 23:00:00,Wednesday,23,206
+CT,Hartford,2023-11-23 00:00:00,Thursday,0,252
+CT,Hartford,2023-11-23 01:00:00,Thursday,1,253
+CT,Hartford,2023-11-23 02:00:00,Thursday,2,173
+CT,Hartford,2023-11-23 03:00:00,Thursday,3,233
+CT,Hartford,2023-11-23 04:00:00,Thursday,4,286
+CT,Hartford,2023-11-23 05:00:00,Thursday,5,309
+CT,Hartford,2023-11-23 06:00:00,Thursday,6,315
+CT,Hartford,2023-11-23 07:00:00,Thursday,7,784
+CT,Hartford,2023-11-23 08:00:00,Thursday,8,858
+CT,Hartford,2023-11-23 09:00:00,Thursday,9,566
+CT,Hartford,2023-11-23 10:00:00,Thursday,10,657
+CT,Hartford,2023-11-23 11:00:00,Thursday,11,672
+CT,Hartford,2023-11-23 12:00:00,Thursday,12,541
+CT,Hartford,2023-11-23 13:00:00,Thursday,13,541
+CT,Hartford,2023-11-23 14:00:00,Thursday,14,674
+CT,Hartford,2023-11-23 15:00:00,Thursday,15,661
+CT,Hartford,2023-11-23 16:00:00,Thursday,16,747
+CT,Hartford,2023-11-23 17:00:00,Thursday,17,851
+CT,Hartford,2023-11-23 18:00:00,Thursday,18,538
+CT,Hartford,2023-11-23 19:00:00,Thursday,19,676
+CT,Hartford,2023-11-23 20:00:00,Thursday,20,606
+CT,Hartford,2023-11-23 21:00:00,Thursday,21,530
+CT,Hartford,2023-11-23 22:00:00,Thursday,22,237
+CT,Hartford,2023-11-23 23:00:00,Thursday,23,286
+CT,Hartford,2023-11-24 00:00:00,Friday,0,218
+CT,Hartford,2023-11-24 01:00:00,Friday,1,190
+CT,Hartford,2023-11-24 02:00:00,Friday,2,233
+CT,Hartford,2023-11-24 03:00:00,Friday,3,259
+CT,Hartford,2023-11-24 04:00:00,Friday,4,244
+CT,Hartford,2023-11-24 05:00:00,Friday,5,241
+CT,Hartford,2023-11-24 06:00:00,Friday,6,265
+CT,Hartford,2023-11-24 07:00:00,Friday,7,691
+CT,Hartford,2023-11-24 08:00:00,Friday,8,890
+CT,Hartford,2023-11-24 09:00:00,Friday,9,638
+CT,Hartford,2023-11-24 10:00:00,Friday,10,565
+CT,Hartford,2023-11-24 11:00:00,Friday,11,530
+CT,Hartford,2023-11-24 12:00:00,Friday,12,823
+CT,Hartford,2023-11-24 13:00:00,Friday,13,550
+CT,Hartford,2023-11-24 14:00:00,Friday,14,507
+CT,Hartford,2023-11-24 15:00:00,Friday,15,617
+CT,Hartford,2023-11-24 16:00:00,Friday,16,866
+CT,Hartford,2023-11-24 17:00:00,Friday,17,855
+CT,Hartford,2023-11-24 18:00:00,Friday,18,694
+CT,Hartford,2023-11-24 19:00:00,Friday,19,826
+CT,Hartford,2023-11-24 20:00:00,Friday,20,736
+CT,Hartford,2023-11-24 21:00:00,Friday,21,786
+CT,Hartford,2023-11-24 22:00:00,Friday,22,162
+CT,Hartford,2023-11-24 23:00:00,Friday,23,241
+CT,Hartford,2023-11-25 00:00:00,Saturday,0,162
+CT,Hartford,2023-11-25 01:00:00,Saturday,1,165
+CT,Hartford,2023-11-25 02:00:00,Saturday,2,121
+CT,Hartford,2023-11-25 03:00:00,Saturday,3,184
+CT,Hartford,2023-11-25 04:00:00,Saturday,4,188
+CT,Hartford,2023-11-25 05:00:00,Saturday,5,145
+CT,Hartford,2023-11-25 06:00:00,Saturday,6,160
+CT,Hartford,2023-11-25 07:00:00,Saturday,7,564
+CT,Hartford,2023-11-25 08:00:00,Saturday,8,680
+CT,Hartford,2023-11-25 09:00:00,Saturday,9,447
+CT,Hartford,2023-11-25 10:00:00,Saturday,10,397
+CT,Hartford,2023-11-25 11:00:00,Saturday,11,430
+CT,Hartford,2023-11-25 12:00:00,Saturday,12,418
+CT,Hartford,2023-11-25 13:00:00,Saturday,13,445
+CT,Hartford,2023-11-25 14:00:00,Saturday,14,479
+CT,Hartford,2023-11-25 15:00:00,Saturday,15,428
+CT,Hartford,2023-11-25 16:00:00,Saturday,16,868
+CT,Hartford,2023-11-25 17:00:00,Saturday,17,827
+CT,Hartford,2023-11-25 18:00:00,Saturday,18,446
+CT,Hartford,2023-11-25 19:00:00,Saturday,19,397
+CT,Hartford,2023-11-25 20:00:00,Saturday,20,413
+CT,Hartford,2023-11-25 21:00:00,Saturday,21,493
+CT,Hartford,2023-11-25 22:00:00,Saturday,22,203
+CT,Hartford,2023-11-25 23:00:00,Saturday,23,173
+CT,Hartford,2023-11-26 00:00:00,Sunday,0,148
+CT,Hartford,2023-11-26 01:00:00,Sunday,1,157
+CT,Hartford,2023-11-26 02:00:00,Sunday,2,184
+CT,Hartford,2023-11-26 03:00:00,Sunday,3,161
+CT,Hartford,2023-11-26 04:00:00,Sunday,4,178
+CT,Hartford,2023-11-26 05:00:00,Sunday,5,122
+CT,Hartford,2023-11-26 06:00:00,Sunday,6,159
+CT,Hartford,2023-11-26 07:00:00,Sunday,7,534
+CT,Hartford,2023-11-26 08:00:00,Sunday,8,663
+CT,Hartford,2023-11-26 09:00:00,Sunday,9,371
+CT,Hartford,2023-11-26 10:00:00,Sunday,10,340
+CT,Hartford,2023-11-26 11:00:00,Sunday,11,373
+CT,Hartford,2023-11-26 12:00:00,Sunday,12,406
+CT,Hartford,2023-11-26 13:00:00,Sunday,13,335
+CT,Hartford,2023-11-26 14:00:00,Sunday,14,471
+CT,Hartford,2023-11-26 15:00:00,Sunday,15,387
+CT,Hartford,2023-11-26 16:00:00,Sunday,16,719
+CT,Hartford,2023-11-26 17:00:00,Sunday,17,493
+CT,Hartford,2023-11-26 18:00:00,Sunday,18,495
+CT,Hartford,2023-11-26 19:00:00,Sunday,19,434
+CT,Hartford,2023-11-26 20:00:00,Sunday,20,522
+CT,Hartford,2023-11-26 21:00:00,Sunday,21,460
+CT,Hartford,2023-11-26 22:00:00,Sunday,22,168
+CT,Hartford,2023-11-26 23:00:00,Sunday,23,169
+CT,Hartford,2023-11-27 00:00:00,Monday,0,191
+CT,New Haven,2023-11-20 00:00:00,Monday,0,349
+CT,New Haven,2023-11-20 01:00:00,Monday,1,282
+CT,New Haven,2023-11-20 02:00:00,Monday,2,255
+CT,New Haven,2023-11-20 03:00:00,Monday,3,292
+CT,New Haven,2023-11-20 04:00:00,Monday,4,259
+CT,New Haven,2023-11-20 05:00:00,Monday,5,226
+CT,New Haven,2023-11-20 06:00:00,Monday,6,294
+CT,New Haven,2023-11-20 07:00:00,Monday,7,929
+CT,New Haven,2023-11-20 08:00:00,Monday,8,838
+CT,New Haven,2023-11-20 09:00:00,Monday,9,679
+CT,New Haven,2023-11-20 10:00:00,Monday,10,828
+CT,New Haven,2023-11-20 11:00:00,Monday,11,712
+CT,New Haven,2023-11-20 12:00:00,Monday,12,809
+CT,New Haven,2023-11-20 13:00:00,Monday,13,669
+CT,New Haven,2023-11-20 14:00:00,Monday,14,720
+CT,New Haven,2023-11-20 15:00:00,Monday,15,707
+CT,New Haven,2023-11-20 16:00:00,Monday,16,1070
+CT,New Haven,2023-11-20 17:00:00,Monday,17,1133
+CT,New Haven,2023-11-20 18:00:00,Monday,18,723
+CT,New Haven,2023-11-20 19:00:00,Monday,19,768
+CT,New Haven,2023-11-20 20:00:00,Monday,20,794
+CT,New Haven,2023-11-20 21:00:00,Monday,21,839
+CT,New Haven,2023-11-20 22:00:00,Monday,22,309
+CT,New Haven,2023-11-20 23:00:00,Monday,23,249
+CT,New Haven,2023-11-21 00:00:00,Tuesday,0,247
+CT,New Haven,2023-11-21 01:00:00,Tuesday,1,408
+CT,New Haven,2023-11-21 02:00:00,Tuesday,2,234
+CT,New Haven,2023-11-21 03:00:00,Tuesday,3,318
+CT,New Haven,2023-11-21 04:00:00,Tuesday,4,361
+CT,New Haven,2023-11-21 05:00:00,Tuesday,5,240
+CT,New Haven,2023-11-21 06:00:00,Tuesday,6,302
+CT,New Haven,2023-11-21 07:00:00,Tuesday,7,1599
+CT,New Haven,2023-11-21 08:00:00,Tuesday,8,957
+CT,New Haven,2023-11-21 09:00:00,Tuesday,9,580
+CT,New Haven,2023-11-21 10:00:00,Tuesday,10,820
+CT,New Haven,2023-11-21 11:00:00,Tuesday,11,650
+CT,New Haven,2023-11-21 12:00:00,Tuesday,12,818
+CT,New Haven,2023-11-21 13:00:00,Tuesday,13,757
+CT,New Haven,2023-11-21 14:00:00,Tuesday,14,603
+CT,New Haven,2023-11-21 15:00:00,Tuesday,15,670
+CT,New Haven,2023-11-21 16:00:00,Tuesday,16,1231
+CT,New Haven,2023-11-21 17:00:00,Tuesday,17,974
+CT,New Haven,2023-11-21 18:00:00,Tuesday,18,903
+CT,New Haven,2023-11-21 19:00:00,Tuesday,19,700
+CT,New Haven,2023-11-21 20:00:00,Tuesday,20,751
+CT,New Haven,2023-11-21 21:00:00,Tuesday,21,568
+CT,New Haven,2023-11-21 22:00:00,Tuesday,22,324
+CT,New Haven,2023-11-21 23:00:00,Tuesday,23,341
+CT,New Haven,2023-11-22 00:00:00,Wednesday,0,233
+CT,New Haven,2023-11-22 01:00:00,Wednesday,1,261
+CT,New Haven,2023-11-22 02:00:00,Wednesday,2,352
+CT,New Haven,2023-11-22 03:00:00,Wednesday,3,324
+CT,New Haven,2023-11-22 04:00:00,Wednesday,4,258
+CT,New Haven,2023-11-22 05:00:00,Wednesday,5,352
+CT,New Haven,2023-11-22 06:00:00,Wednesday,6,251
+CT,New Haven,2023-11-22 07:00:00,Wednesday,7,901
+CT,New Haven,2023-11-22 08:00:00,Wednesday,8,1140
+CT,New Haven,2023-11-22 09:00:00,Wednesday,9,695
+CT,New Haven,2023-11-22 10:00:00,Wednesday,10,745
+CT,New Haven,2023-11-22 11:00:00,Wednesday,11,637
+CT,New Haven,2023-11-22 12:00:00,Wednesday,12,696
+CT,New Haven,2023-11-22 13:00:00,Wednesday,13,689
+CT,New Haven,2023-11-22 14:00:00,Wednesday,14,681
+CT,New Haven,2023-11-22 15:00:00,Wednesday,15,769
+CT,New Haven,2023-11-22 16:00:00,Wednesday,16,1149
+CT,New Haven,2023-11-22 17:00:00,Wednesday,17,1114
+CT,New Haven,2023-11-22 18:00:00,Wednesday,18,682
+CT,New Haven,2023-11-22 19:00:00,Wednesday,19,591
+CT,New Haven,2023-11-22 20:00:00,Wednesday,20,878
+CT,New Haven,2023-11-22 21:00:00,Wednesday,21,801
+CT,New Haven,2023-11-22 22:00:00,Wednesday,22,267
+CT,New Haven,2023-11-22 23:00:00,Wednesday,23,282
+CT,New Haven,2023-11-23 00:00:00,Thursday,0,353
+CT,New Haven,2023-11-23 01:00:00,Thursday,1,329
+CT,New Haven,2023-11-23 02:00:00,Thursday,2,264
+CT,New Haven,2023-11-23 03:00:00,Thursday,3,336
+CT,New Haven,2023-11-23 04:00:00,Thursday,4,289
+CT,New Haven,2023-11-23 05:00:00,Thursday,5,345
+CT,New Haven,2023-11-23 06:00:00,Thursday,6,299
+CT,New Haven,2023-11-23 07:00:00,Thursday,7,1102
+CT,New Haven,2023-11-23 08:00:00,Thursday,8,1136
+CT,New Haven,2023-11-23 09:00:00,Thursday,9,752
+CT,New Haven,2023-11-23 10:00:00,Thursday,10,664
+CT,New Haven,2023-11-23 11:00:00,Thursday,11,622
+CT,New Haven,2023-11-23 12:00:00,Thursday,12,668
+CT,New Haven,2023-11-23 13:00:00,Thursday,13,534
+CT,New Haven,2023-11-23 14:00:00,Thursday,14,714
+CT,New Haven,2023-11-23 15:00:00,Thursday,15,734
+CT,New Haven,2023-11-23 16:00:00,Thursday,16,1181
+CT,New Haven,2023-11-23 17:00:00,Thursday,17,1152
+CT,New Haven,2023-11-23 18:00:00,Thursday,18,892
+CT,New Haven,2023-11-23 19:00:00,Thursday,19,719
+CT,New Haven,2023-11-23 20:00:00,Thursday,20,708
+CT,New Haven,2023-11-23 21:00:00,Thursday,21,797
+CT,New Haven,2023-11-23 22:00:00,Thursday,22,255
+CT,New Haven,2023-11-23 23:00:00,Thursday,23,302
+CT,New Haven,2023-11-24 00:00:00,Friday,0,293
+CT,New Haven,2023-11-24 01:00:00,Friday,1,348
+CT,New Haven,2023-11-24 02:00:00,Friday,2,217
+CT,New Haven,2023-11-24 03:00:00,Friday,3,297
+CT,New Haven,2023-11-24 04:00:00,Friday,4,302
+CT,New Haven,2023-11-24 05:00:00,Friday,5,307
+CT,New Haven,2023-11-24 06:00:00,Friday,6,283
+CT,New Haven,2023-11-24 07:00:00,Friday,7,1223
+CT,New Haven,2023-11-24 08:00:00,Friday,8,1089
+CT,New Haven,2023-11-24 09:00:00,Friday,9,645
+CT,New Haven,2023-11-24 10:00:00,Friday,10,600
+CT,New Haven,2023-11-24 11:00:00,Friday,11,509
+CT,New Haven,2023-11-24 12:00:00,Friday,12,815
+CT,New Haven,2023-11-24 13:00:00,Friday,13,956
+CT,New Haven,2023-11-24 14:00:00,Friday,14,626
+CT,New Haven,2023-11-24 15:00:00,Friday,15,821
+CT,New Haven,2023-11-24 16:00:00,Friday,16,1100
+CT,New Haven,2023-11-24 17:00:00,Friday,17,1101
+CT,New Haven,2023-11-24 18:00:00,Friday,18,797
+CT,New Haven,2023-11-24 19:00:00,Friday,19,840
+CT,New Haven,2023-11-24 20:00:00,Friday,20,758
+CT,New Haven,2023-11-24 21:00:00,Friday,21,752
+CT,New Haven,2023-11-24 22:00:00,Friday,22,293
+CT,New Haven,2023-11-24 23:00:00,Friday,23,315
+CT,New Haven,2023-11-25 00:00:00,Saturday,0,261
+CT,New Haven,2023-11-25 01:00:00,Saturday,1,194
+CT,New Haven,2023-11-25 02:00:00,Saturday,2,270
+CT,New Haven,2023-11-25 03:00:00,Saturday,3,270
+CT,New Haven,2023-11-25 04:00:00,Saturday,4,253
+CT,New Haven,2023-11-25 05:00:00,Saturday,5,189
+CT,New Haven,2023-11-25 06:00:00,Saturday,6,220
+CT,New Haven,2023-11-25 07:00:00,Saturday,7,673
+CT,New Haven,2023-11-25 08:00:00,Saturday,8,709
+CT,New Haven,2023-11-25 09:00:00,Saturday,9,545
+CT,New Haven,2023-11-25 10:00:00,Saturday,10,516
+CT,New Haven,2023-11-25 11:00:00,Saturday,11,495
+CT,New Haven,2023-11-25 12:00:00,Saturday,12,510
+CT,New Haven,2023-11-25 13:00:00,Saturday,13,497
+CT,New Haven,2023-11-25 14:00:00,Saturday,14,485
+CT,New Haven,2023-11-25 15:00:00,Saturday,15,434
+CT,New Haven,2023-11-25 16:00:00,Saturday,16,881
+CT,New Haven,2023-11-25 17:00:00,Saturday,17,801
+CT,New Haven,2023-11-25 18:00:00,Saturday,18,578
+CT,New Haven,2023-11-25 19:00:00,Saturday,19,554
+CT,New Haven,2023-11-25 20:00:00,Saturday,20,717
+CT,New Haven,2023-11-25 21:00:00,Saturday,21,478
+CT,New Haven,2023-11-25 22:00:00,Saturday,22,237
+CT,New Haven,2023-11-25 23:00:00,Saturday,23,193
+CT,New Haven,2023-11-26 00:00:00,Sunday,0,144
+CT,New Haven,2023-11-26 01:00:00,Sunday,1,177
+CT,New Haven,2023-11-26 02:00:00,Sunday,2,186
+CT,New Haven,2023-11-26 03:00:00,Sunday,3,252
+CT,New Haven,2023-11-26 04:00:00,Sunday,4,233
+CT,New Haven,2023-11-26 05:00:00,Sunday,5,216
+CT,New Haven,2023-11-26 06:00:00,Sunday,6,194
+CT,New Haven,2023-11-26 07:00:00,Sunday,7,713
+CT,New Haven,2023-11-26 08:00:00,Sunday,8,713
+CT,New Haven,2023-11-26 09:00:00,Sunday,9,450
+CT,New Haven,2023-11-26 10:00:00,Sunday,10,369
+CT,New Haven,2023-11-26 11:00:00,Sunday,11,439
+CT,New Haven,2023-11-26 12:00:00,Sunday,12,615
+CT,New Haven,2023-11-26 13:00:00,Sunday,13,542
+CT,New Haven,2023-11-26 14:00:00,Sunday,14,590
+CT,New Haven,2023-11-26 15:00:00,Sunday,15,601
+CT,New Haven,2023-11-26 16:00:00,Sunday,16,927
+CT,New Haven,2023-11-26 17:00:00,Sunday,17,674
+CT,New Haven,2023-11-26 18:00:00,Sunday,18,507
+CT,New Haven,2023-11-26 19:00:00,Sunday,19,522
+CT,New Haven,2023-11-26 20:00:00,Sunday,20,692
+CT,New Haven,2023-11-26 21:00:00,Sunday,21,459
+CT,New Haven,2023-11-26 22:00:00,Sunday,22,167
+CT,New Haven,2023-11-26 23:00:00,Sunday,23,185
+CT,New Haven,2023-11-27 00:00:00,Monday,0,253
+CT,Stamford,2023-11-20 00:00:00,Monday,0,383
+CT,Stamford,2023-11-20 01:00:00,Monday,1,351
+CT,Stamford,2023-11-20 02:00:00,Monday,2,341
+CT,Stamford,2023-11-20 03:00:00,Monday,3,400
+CT,Stamford,2023-11-20 04:00:00,Monday,4,349
+CT,Stamford,2023-11-20 05:00:00,Monday,5,405
+CT,Stamford,2023-11-20 06:00:00,Monday,6,319
+CT,Stamford,2023-11-20 07:00:00,Monday,7,1411
+CT,Stamford,2023-11-20 08:00:00,Monday,8,1036
+CT,Stamford,2023-11-20 09:00:00,Monday,9,732
+CT,Stamford,2023-11-20 10:00:00,Monday,10,814
+CT,Stamford,2023-11-20 11:00:00,Monday,11,893
+CT,Stamford,2023-11-20 12:00:00,Monday,12,838
+CT,Stamford,2023-11-20 13:00:00,Monday,13,905
+CT,Stamford,2023-11-20 14:00:00,Monday,14,674
+CT,Stamford,2023-11-20 15:00:00,Monday,15,802
+CT,Stamford,2023-11-20 16:00:00,Monday,16,1111
+CT,Stamford,2023-11-20 17:00:00,Monday,17,1278
+CT,Stamford,2023-11-20 18:00:00,Monday,18,909
+CT,Stamford,2023-11-20 19:00:00,Monday,19,832
+CT,Stamford,2023-11-20 20:00:00,Monday,20,853
+CT,Stamford,2023-11-20 21:00:00,Monday,21,1211
+CT,Stamford,2023-11-20 22:00:00,Monday,22,347
+CT,Stamford,2023-11-20 23:00:00,Monday,23,409
+CT,Stamford,2023-11-21 00:00:00,Tuesday,0,390
+CT,Stamford,2023-11-21 01:00:00,Tuesday,1,503
+CT,Stamford,2023-11-21 02:00:00,Tuesday,2,323
+CT,Stamford,2023-11-21 03:00:00,Tuesday,3,395
+CT,Stamford,2023-11-21 04:00:00,Tuesday,4,378
+CT,Stamford,2023-11-21 05:00:00,Tuesday,5,387
+CT,Stamford,2023-11-21 06:00:00,Tuesday,6,375
+CT,Stamford,2023-11-21 07:00:00,Tuesday,7,1450
+CT,Stamford,2023-11-21 08:00:00,Tuesday,8,1374
+CT,Stamford,2023-11-21 09:00:00,Tuesday,9,826
+CT,Stamford,2023-11-21 10:00:00,Tuesday,10,861
+CT,Stamford,2023-11-21 11:00:00,Tuesday,11,713
+CT,Stamford,2023-11-21 12:00:00,Tuesday,12,845
+CT,Stamford,2023-11-21 13:00:00,Tuesday,13,824
+CT,Stamford,2023-11-21 14:00:00,Tuesday,14,908
+CT,Stamford,2023-11-21 15:00:00,Tuesday,15,800
+CT,Stamford,2023-11-21 16:00:00,Tuesday,16,1442
+CT,Stamford,2023-11-21 17:00:00,Tuesday,17,1198
+CT,Stamford,2023-11-21 18:00:00,Tuesday,18,889
+CT,Stamford,2023-11-21 19:00:00,Tuesday,19,690
+CT,Stamford,2023-11-21 20:00:00,Tuesday,20,962
+CT,Stamford,2023-11-21 21:00:00,Tuesday,21,748
+CT,Stamford,2023-11-21 22:00:00,Tuesday,22,299
+CT,Stamford,2023-11-21 23:00:00,Tuesday,23,337
+CT,Stamford,2023-11-22 00:00:00,Wednesday,0,357
+CT,Stamford,2023-11-22 01:00:00,Wednesday,1,426
+CT,Stamford,2023-11-22 02:00:00,Wednesday,2,356
+CT,Stamford,2023-11-22 03:00:00,Wednesday,3,269
+CT,Stamford,2023-11-22 04:00:00,Wednesday,4,425
+CT,Stamford,2023-11-22 05:00:00,Wednesday,5,309
+CT,Stamford,2023-11-22 06:00:00,Wednesday,6,485
+CT,Stamford,2023-11-22 07:00:00,Wednesday,7,1030
+CT,Stamford,2023-11-22 08:00:00,Wednesday,8,1380
+CT,Stamford,2023-11-22 09:00:00,Wednesday,9,820
+CT,Stamford,2023-11-22 10:00:00,Wednesday,10,642
+CT,Stamford,2023-11-22 11:00:00,Wednesday,11,897
+CT,Stamford,2023-11-22 12:00:00,Wednesday,12,1033
+CT,Stamford,2023-11-22 13:00:00,Wednesday,13,796
+CT,Stamford,2023-11-22 14:00:00,Wednesday,14,885
+CT,Stamford,2023-11-22 15:00:00,Wednesday,15,938
+CT,Stamford,2023-11-22 16:00:00,Wednesday,16,1282
+CT,Stamford,2023-11-22 17:00:00,Wednesday,17,1096
+CT,Stamford,2023-11-22 18:00:00,Wednesday,18,802
+CT,Stamford,2023-11-22 19:00:00,Wednesday,19,806
+CT,Stamford,2023-11-22 20:00:00,Wednesday,20,1149
+CT,Stamford,2023-11-22 21:00:00,Wednesday,21,1015
+CT,Stamford,2023-11-22 22:00:00,Wednesday,22,425
+CT,Stamford,2023-11-22 23:00:00,Wednesday,23,351
+CT,Stamford,2023-11-23 00:00:00,Thursday,0,377
+CT,Stamford,2023-11-23 01:00:00,Thursday,1,372
+CT,Stamford,2023-11-23 02:00:00,Thursday,2,431
+CT,Stamford,2023-11-23 03:00:00,Thursday,3,473
+CT,Stamford,2023-11-23 04:00:00,Thursday,4,366
+CT,Stamford,2023-11-23 05:00:00,Thursday,5,305
+CT,Stamford,2023-11-23 06:00:00,Thursday,6,364
+CT,Stamford,2023-11-23 07:00:00,Thursday,7,1301
+CT,Stamford,2023-11-23 08:00:00,Thursday,8,1047
+CT,Stamford,2023-11-23 09:00:00,Thursday,9,814
+CT,Stamford,2023-11-23 10:00:00,Thursday,10,1046
+CT,Stamford,2023-11-23 11:00:00,Thursday,11,1082
+CT,Stamford,2023-11-23 12:00:00,Thursday,12,973
+CT,Stamford,2023-11-23 13:00:00,Thursday,13,843
+CT,Stamford,2023-11-23 14:00:00,Thursday,14,767
+CT,Stamford,2023-11-23 15:00:00,Thursday,15,860
+CT,Stamford,2023-11-23 16:00:00,Thursday,16,1294
+CT,Stamford,2023-11-23 17:00:00,Thursday,17,1249
+CT,Stamford,2023-11-23 18:00:00,Thursday,18,913
+CT,Stamford,2023-11-23 19:00:00,Thursday,19,1051
+CT,Stamford,2023-11-23 20:00:00,Thursday,20,671
+CT,Stamford,2023-11-23 21:00:00,Thursday,21,970
+CT,Stamford,2023-11-23 22:00:00,Thursday,22,373
+CT,Stamford,2023-11-23 23:00:00,Thursday,23,317
+CT,Stamford,2023-11-24 00:00:00,Friday,0,390
+CT,Stamford,2023-11-24 01:00:00,Friday,1,302
+CT,Stamford,2023-11-24 02:00:00,Friday,2,404
+CT,Stamford,2023-11-24 03:00:00,Friday,3,262
+CT,Stamford,2023-11-24 04:00:00,Friday,4,479
+CT,Stamford,2023-11-24 05:00:00,Friday,5,296
+CT,Stamford,2023-11-24 06:00:00,Friday,6,271
+CT,Stamford,2023-11-24 07:00:00,Friday,7,943
+CT,Stamford,2023-11-24 08:00:00,Friday,8,1006
+CT,Stamford,2023-11-24 09:00:00,Friday,9,960
+CT,Stamford,2023-11-24 10:00:00,Friday,10,805
+CT,Stamford,2023-11-24 11:00:00,Friday,11,840
+CT,Stamford,2023-11-24 12:00:00,Friday,12,770
+CT,Stamford,2023-11-24 13:00:00,Friday,13,1060
+CT,Stamford,2023-11-24 14:00:00,Friday,14,920
+CT,Stamford,2023-11-24 15:00:00,Friday,15,754
+CT,Stamford,2023-11-24 16:00:00,Friday,16,1380
+CT,Stamford,2023-11-24 17:00:00,Friday,17,1038
+CT,Stamford,2023-11-24 18:00:00,Friday,18,941
+CT,Stamford,2023-11-24 19:00:00,Friday,19,975
+CT,Stamford,2023-11-24 20:00:00,Friday,20,957
+CT,Stamford,2023-11-24 21:00:00,Friday,21,722
+CT,Stamford,2023-11-24 22:00:00,Friday,22,278
+CT,Stamford,2023-11-24 23:00:00,Friday,23,361
+CT,Stamford,2023-11-25 00:00:00,Saturday,0,212
+CT,Stamford,2023-11-25 01:00:00,Saturday,1,239
+CT,Stamford,2023-11-25 02:00:00,Saturday,2,209
+CT,Stamford,2023-11-25 03:00:00,Saturday,3,290
+CT,Stamford,2023-11-25 04:00:00,Saturday,4,206
+CT,Stamford,2023-11-25 05:00:00,Saturday,5,272
+CT,Stamford,2023-11-25 06:00:00,Saturday,6,249
+CT,Stamford,2023-11-25 07:00:00,Saturday,7,806
+CT,Stamford,2023-11-25 08:00:00,Saturday,8,736
+CT,Stamford,2023-11-25 09:00:00,Saturday,9,510
+CT,Stamford,2023-11-25 10:00:00,Saturday,10,643
+CT,Stamford,2023-11-25 11:00:00,Saturday,11,573
+CT,Stamford,2023-11-25 12:00:00,Saturday,12,665
+CT,Stamford,2023-11-25 13:00:00,Saturday,13,526
+CT,Stamford,2023-11-25 14:00:00,Saturday,14,608
+CT,Stamford,2023-11-25 15:00:00,Saturday,15,488
+CT,Stamford,2023-11-25 16:00:00,Saturday,16,1048
+CT,Stamford,2023-11-25 17:00:00,Saturday,17,803
+CT,Stamford,2023-11-25 18:00:00,Saturday,18,602
+CT,Stamford,2023-11-25 19:00:00,Saturday,19,622
+CT,Stamford,2023-11-25 20:00:00,Saturday,20,712
+CT,Stamford,2023-11-25 21:00:00,Saturday,21,781
+CT,Stamford,2023-11-25 22:00:00,Saturday,22,190
+CT,Stamford,2023-11-25 23:00:00,Saturday,23,278
+CT,Stamford,2023-11-26 00:00:00,Sunday,0,247
+CT,Stamford,2023-11-26 01:00:00,Sunday,1,276
+CT,Stamford,2023-11-26 02:00:00,Sunday,2,264
+CT,Stamford,2023-11-26 03:00:00,Sunday,3,238
+CT,Stamford,2023-11-26 04:00:00,Sunday,4,196
+CT,Stamford,2023-11-26 05:00:00,Sunday,5,226
+CT,Stamford,2023-11-26 06:00:00,Sunday,6,273
+CT,Stamford,2023-11-26 07:00:00,Sunday,7,790
+CT,Stamford,2023-11-26 08:00:00,Sunday,8,908
+CT,Stamford,2023-11-26 09:00:00,Sunday,9,736
+CT,Stamford,2023-11-26 10:00:00,Sunday,10,641
+CT,Stamford,2023-11-26 11:00:00,Sunday,11,517
+CT,Stamford,2023-11-26 12:00:00,Sunday,12,652
+CT,Stamford,2023-11-26 13:00:00,Sunday,13,739
+CT,Stamford,2023-11-26 14:00:00,Sunday,14,789
+CT,Stamford,2023-11-26 15:00:00,Sunday,15,726
+CT,Stamford,2023-11-26 16:00:00,Sunday,16,651
+CT,Stamford,2023-11-26 17:00:00,Sunday,17,914
+CT,Stamford,2023-11-26 18:00:00,Sunday,18,664
+CT,Stamford,2023-11-26 19:00:00,Sunday,19,592
+CT,Stamford,2023-11-26 20:00:00,Sunday,20,667
+CT,Stamford,2023-11-26 21:00:00,Sunday,21,659
+CT,Stamford,2023-11-26 22:00:00,Sunday,22,307
+CT,Stamford,2023-11-26 23:00:00,Sunday,23,219
+CT,Stamford,2023-11-27 00:00:00,Monday,0,358
+MA,Boston,2023-11-20 00:00:00,Monday,0,756
+MA,Boston,2023-11-20 01:00:00,Monday,1,681
+MA,Boston,2023-11-20 02:00:00,Monday,2,673
+MA,Boston,2023-11-20 03:00:00,Monday,3,732
+MA,Boston,2023-11-20 04:00:00,Monday,4,920
+MA,Boston,2023-11-20 05:00:00,Monday,5,773
+MA,Boston,2023-11-20 06:00:00,Monday,6,590
+MA,Boston,2023-11-20 07:00:00,Monday,7,3148
+MA,Boston,2023-11-20 08:00:00,Monday,8,2681
+MA,Boston,2023-11-20 09:00:00,Monday,9,2000
+MA,Boston,2023-11-20 10:00:00,Monday,10,1641
+MA,Boston,2023-11-20 11:00:00,Monday,11,1738
+MA,Boston,2023-11-20 12:00:00,Monday,12,1863
+MA,Boston,2023-11-20 13:00:00,Monday,13,1886
+MA,Boston,2023-11-20 14:00:00,Monday,14,1507
+MA,Boston,2023-11-20 15:00:00,Monday,15,1966
+MA,Boston,2023-11-20 16:00:00,Monday,16,2647
+MA,Boston,2023-11-20 17:00:00,Monday,17,3071
+MA,Boston,2023-11-20 18:00:00,Monday,18,1840
+MA,Boston,2023-11-20 19:00:00,Monday,19,1981
+MA,Boston,2023-11-20 20:00:00,Monday,20,1927
+MA,Boston,2023-11-20 21:00:00,Monday,21,1990
+MA,Boston,2023-11-20 22:00:00,Monday,22,889
+MA,Boston,2023-11-20 23:00:00,Monday,23,544
+MA,Boston,2023-11-21 00:00:00,Tuesday,0,893
+MA,Boston,2023-11-21 01:00:00,Tuesday,1,723
+MA,Boston,2023-11-21 02:00:00,Tuesday,2,682
+MA,Boston,2023-11-21 03:00:00,Tuesday,3,582
+MA,Boston,2023-11-21 04:00:00,Tuesday,4,679
+MA,Boston,2023-11-21 05:00:00,Tuesday,5,592
+MA,Boston,2023-11-21 06:00:00,Tuesday,6,783
+MA,Boston,2023-11-21 07:00:00,Tuesday,7,3132
+MA,Boston,2023-11-21 08:00:00,Tuesday,8,2153
+MA,Boston,2023-11-21 09:00:00,Tuesday,9,1579
+MA,Boston,2023-11-21 10:00:00,Tuesday,10,1976
+MA,Boston,2023-11-21 11:00:00,Tuesday,11,1622
+MA,Boston,2023-11-21 12:00:00,Tuesday,12,1921
+MA,Boston,2023-11-21 13:00:00,Tuesday,13,1742
+MA,Boston,2023-11-21 14:00:00,Tuesday,14,1547
+MA,Boston,2023-11-21 15:00:00,Tuesday,15,1767
+MA,Boston,2023-11-21 16:00:00,Tuesday,16,3066
+MA,Boston,2023-11-21 17:00:00,Tuesday,17,2784
+MA,Boston,2023-11-21 18:00:00,Tuesday,18,1676
+MA,Boston,2023-11-21 19:00:00,Tuesday,19,2522
+MA,Boston,2023-11-21 20:00:00,Tuesday,20,1804
+MA,Boston,2023-11-21 21:00:00,Tuesday,21,1976
+MA,Boston,2023-11-21 22:00:00,Tuesday,22,623
+MA,Boston,2023-11-21 23:00:00,Tuesday,23,664
+MA,Boston,2023-11-22 00:00:00,Wednesday,0,833
+MA,Boston,2023-11-22 01:00:00,Wednesday,1,797
+MA,Boston,2023-11-22 02:00:00,Wednesday,2,635
+MA,Boston,2023-11-22 03:00:00,Wednesday,3,881
+MA,Boston,2023-11-22 04:00:00,Wednesday,4,771
+MA,Boston,2023-11-22 05:00:00,Wednesday,5,640
+MA,Boston,2023-11-22 06:00:00,Wednesday,6,591
+MA,Boston,2023-11-22 07:00:00,Wednesday,7,3352
+MA,Boston,2023-11-22 08:00:00,Wednesday,8,2621
+MA,Boston,2023-11-22 09:00:00,Wednesday,9,1271
+MA,Boston,2023-11-22 10:00:00,Wednesday,10,1344
+MA,Boston,2023-11-22 11:00:00,Wednesday,11,2155
+MA,Boston,2023-11-22 12:00:00,Wednesday,12,1374
+MA,Boston,2023-11-22 13:00:00,Wednesday,13,1993
+MA,Boston,2023-11-22 14:00:00,Wednesday,14,2059
+MA,Boston,2023-11-22 15:00:00,Wednesday,15,1457
+MA,Boston,2023-11-22 16:00:00,Wednesday,16,2403
+MA,Boston,2023-11-22 17:00:00,Wednesday,17,3278
+MA,Boston,2023-11-22 18:00:00,Wednesday,18,2119
+MA,Boston,2023-11-22 19:00:00,Wednesday,19,2344
+MA,Boston,2023-11-22 20:00:00,Wednesday,20,1508
+MA,Boston,2023-11-22 21:00:00,Wednesday,21,1377
+MA,Boston,2023-11-22 22:00:00,Wednesday,22,796
+MA,Boston,2023-11-22 23:00:00,Wednesday,23,865
+MA,Boston,2023-11-23 00:00:00,Thursday,0,749
+MA,Boston,2023-11-23 01:00:00,Thursday,1,852
+MA,Boston,2023-11-23 02:00:00,Thursday,2,719
+MA,Boston,2023-11-23 03:00:00,Thursday,3,851
+MA,Boston,2023-11-23 04:00:00,Thursday,4,635
+MA,Boston,2023-11-23 05:00:00,Thursday,5,634
+MA,Boston,2023-11-23 06:00:00,Thursday,6,635
+MA,Boston,2023-11-23 07:00:00,Thursday,7,3178
+MA,Boston,2023-11-23 08:00:00,Thursday,8,3307
+MA,Boston,2023-11-23 09:00:00,Thursday,9,1677
+MA,Boston,2023-11-23 10:00:00,Thursday,10,2056
+MA,Boston,2023-11-23 11:00:00,Thursday,11,1719
+MA,Boston,2023-11-23 12:00:00,Thursday,12,1277
+MA,Boston,2023-11-23 13:00:00,Thursday,13,1734
+MA,Boston,2023-11-23 14:00:00,Thursday,14,2104
+MA,Boston,2023-11-23 15:00:00,Thursday,15,1634
+MA,Boston,2023-11-23 16:00:00,Thursday,16,2659
+MA,Boston,2023-11-23 17:00:00,Thursday,17,2669
+MA,Boston,2023-11-23 18:00:00,Thursday,18,2058
+MA,Boston,2023-11-23 19:00:00,Thursday,19,1342
+MA,Boston,2023-11-23 20:00:00,Thursday,20,1790
+MA,Boston,2023-11-23 21:00:00,Thursday,21,1984
+MA,Boston,2023-11-23 22:00:00,Thursday,22,960
+MA,Boston,2023-11-23 23:00:00,Thursday,23,925
+MA,Boston,2023-11-24 00:00:00,Friday,0,740
+MA,Boston,2023-11-24 01:00:00,Friday,1,806
+MA,Boston,2023-11-24 02:00:00,Friday,2,663
+MA,Boston,2023-11-24 03:00:00,Friday,3,660
+MA,Boston,2023-11-24 04:00:00,Friday,4,776
+MA,Boston,2023-11-24 05:00:00,Friday,5,760
+MA,Boston,2023-11-24 06:00:00,Friday,6,832
+MA,Boston,2023-11-24 07:00:00,Friday,7,2477
+MA,Boston,2023-11-24 08:00:00,Friday,8,3251
+MA,Boston,2023-11-24 09:00:00,Friday,9,1578
+MA,Boston,2023-11-24 10:00:00,Friday,10,2458
+MA,Boston,2023-11-24 11:00:00,Friday,11,1339
+MA,Boston,2023-11-24 12:00:00,Friday,12,1801
+MA,Boston,2023-11-24 13:00:00,Friday,13,1931
+MA,Boston,2023-11-24 14:00:00,Friday,14,1403
+MA,Boston,2023-11-24 15:00:00,Friday,15,1971
+MA,Boston,2023-11-24 16:00:00,Friday,16,2221
+MA,Boston,2023-11-24 17:00:00,Friday,17,2904
+MA,Boston,2023-11-24 18:00:00,Friday,18,1710
+MA,Boston,2023-11-24 19:00:00,Friday,19,2095
+MA,Boston,2023-11-24 20:00:00,Friday,20,1357
+MA,Boston,2023-11-24 21:00:00,Friday,21,1701
+MA,Boston,2023-11-24 22:00:00,Friday,22,860
+MA,Boston,2023-11-24 23:00:00,Friday,23,884
+MA,Boston,2023-11-25 00:00:00,Saturday,0,543
+MA,Boston,2023-11-25 01:00:00,Saturday,1,627
+MA,Boston,2023-11-25 02:00:00,Saturday,2,509
+MA,Boston,2023-11-25 03:00:00,Saturday,3,568
+MA,Boston,2023-11-25 04:00:00,Saturday,4,556
+MA,Boston,2023-11-25 05:00:00,Saturday,5,679
+MA,Boston,2023-11-25 06:00:00,Saturday,6,626
+MA,Boston,2023-11-25 07:00:00,Saturday,7,1982
+MA,Boston,2023-11-25 08:00:00,Saturday,8,1675
+MA,Boston,2023-11-25 09:00:00,Saturday,9,1343
+MA,Boston,2023-11-25 10:00:00,Saturday,10,1341
+MA,Boston,2023-11-25 11:00:00,Saturday,11,1136
+MA,Boston,2023-11-25 12:00:00,Saturday,12,1343
+MA,Boston,2023-11-25 13:00:00,Saturday,13,1310
+MA,Boston,2023-11-25 14:00:00,Saturday,14,1216
+MA,Boston,2023-11-25 15:00:00,Saturday,15,1285
+MA,Boston,2023-11-25 16:00:00,Saturday,16,2513
+MA,Boston,2023-11-25 17:00:00,Saturday,17,1855
+MA,Boston,2023-11-25 18:00:00,Saturday,18,1658
+MA,Boston,2023-11-25 19:00:00,Saturday,19,1163
+MA,Boston,2023-11-25 20:00:00,Saturday,20,1053
+MA,Boston,2023-11-25 21:00:00,Saturday,21,1783
+MA,Boston,2023-11-25 22:00:00,Saturday,22,495
+MA,Boston,2023-11-25 23:00:00,Saturday,23,536
+MA,Boston,2023-11-26 00:00:00,Sunday,0,632
+MA,Boston,2023-11-26 01:00:00,Sunday,1,384
+MA,Boston,2023-11-26 02:00:00,Sunday,2,495
+MA,Boston,2023-11-26 03:00:00,Sunday,3,691
+MA,Boston,2023-11-26 04:00:00,Sunday,4,536
+MA,Boston,2023-11-26 05:00:00,Sunday,5,403
+MA,Boston,2023-11-26 06:00:00,Sunday,6,407
+MA,Boston,2023-11-26 07:00:00,Sunday,7,2204
+MA,Boston,2023-11-26 08:00:00,Sunday,8,2312
+MA,Boston,2023-11-26 09:00:00,Sunday,9,1252
+MA,Boston,2023-11-26 10:00:00,Sunday,10,1402
+MA,Boston,2023-11-26 11:00:00,Sunday,11,1293
+MA,Boston,2023-11-26 12:00:00,Sunday,12,1525
+MA,Boston,2023-11-26 13:00:00,Sunday,13,1341
+MA,Boston,2023-11-26 14:00:00,Sunday,14,1327
+MA,Boston,2023-11-26 15:00:00,Sunday,15,1274
+MA,Boston,2023-11-26 16:00:00,Sunday,16,1998
+MA,Boston,2023-11-26 17:00:00,Sunday,17,2200
+MA,Boston,2023-11-26 18:00:00,Sunday,18,1565
+MA,Boston,2023-11-26 19:00:00,Sunday,19,1376
+MA,Boston,2023-11-26 20:00:00,Sunday,20,1667
+MA,Boston,2023-11-26 21:00:00,Sunday,21,1315
+MA,Boston,2023-11-26 22:00:00,Sunday,22,462
+MA,Boston,2023-11-26 23:00:00,Sunday,23,542
+MA,Boston,2023-11-27 00:00:00,Monday,0,548
+MA,Worcester,2023-11-20 00:00:00,Monday,0,320
+MA,Worcester,2023-11-20 01:00:00,Monday,1,433
+MA,Worcester,2023-11-20 02:00:00,Monday,2,345
+MA,Worcester,2023-11-20 03:00:00,Monday,3,312
+MA,Worcester,2023-11-20 04:00:00,Monday,4,368
+MA,Worcester,2023-11-20 05:00:00,Monday,5,359
+MA,Worcester,2023-11-20 06:00:00,Monday,6,359
+MA,Worcester,2023-11-20 07:00:00,Monday,7,1308
+MA,Worcester,2023-11-20 08:00:00,Monday,8,1514
+MA,Worcester,2023-11-20 09:00:00,Monday,9,751
+MA,Worcester,2023-11-20 10:00:00,Monday,10,755
+MA,Worcester,2023-11-20 11:00:00,Monday,11,581
+MA,Worcester,2023-11-20 12:00:00,Monday,12,791
+MA,Worcester,2023-11-20 13:00:00,Monday,13,596
+MA,Worcester,2023-11-20 14:00:00,Monday,14,1090
+MA,Worcester,2023-11-20 15:00:00,Monday,15,842
+MA,Worcester,2023-11-20 16:00:00,Monday,16,1257
+MA,Worcester,2023-11-20 17:00:00,Monday,17,1352
+MA,Worcester,2023-11-20 18:00:00,Monday,18,1044
+MA,Worcester,2023-11-20 19:00:00,Monday,19,822
+MA,Worcester,2023-11-20 20:00:00,Monday,20,874
+MA,Worcester,2023-11-20 21:00:00,Monday,21,877
+MA,Worcester,2023-11-20 22:00:00,Monday,22,289
+MA,Worcester,2023-11-20 23:00:00,Monday,23,362
+MA,Worcester,2023-11-21 00:00:00,Tuesday,0,419
+MA,Worcester,2023-11-21 01:00:00,Tuesday,1,315
+MA,Worcester,2023-11-21 02:00:00,Tuesday,2,273
+MA,Worcester,2023-11-21 03:00:00,Tuesday,3,280
+MA,Worcester,2023-11-21 04:00:00,Tuesday,4,293
+MA,Worcester,2023-11-21 05:00:00,Tuesday,5,472
+MA,Worcester,2023-11-21 06:00:00,Tuesday,6,348
+MA,Worcester,2023-11-21 07:00:00,Tuesday,7,1605
+MA,Worcester,2023-11-21 08:00:00,Tuesday,8,1711
+MA,Worcester,2023-11-21 09:00:00,Tuesday,9,912
+MA,Worcester,2023-11-21 10:00:00,Tuesday,10,1027
+MA,Worcester,2023-11-21 11:00:00,Tuesday,11,716
+MA,Worcester,2023-11-21 12:00:00,Tuesday,12,784
+MA,Worcester,2023-11-21 13:00:00,Tuesday,13,866
+MA,Worcester,2023-11-21 14:00:00,Tuesday,14,740
+MA,Worcester,2023-11-21 15:00:00,Tuesday,15,852
+MA,Worcester,2023-11-21 16:00:00,Tuesday,16,1199
+MA,Worcester,2023-11-21 17:00:00,Tuesday,17,953
+MA,Worcester,2023-11-21 18:00:00,Tuesday,18,755
+MA,Worcester,2023-11-21 19:00:00,Tuesday,19,824
+MA,Worcester,2023-11-21 20:00:00,Tuesday,20,690
+MA,Worcester,2023-11-21 21:00:00,Tuesday,21,713
+MA,Worcester,2023-11-21 22:00:00,Tuesday,22,364
+MA,Worcester,2023-11-21 23:00:00,Tuesday,23,412
+MA,Worcester,2023-11-22 00:00:00,Wednesday,0,327
+MA,Worcester,2023-11-22 01:00:00,Wednesday,1,384
+MA,Worcester,2023-11-22 02:00:00,Wednesday,2,345
+MA,Worcester,2023-11-22 03:00:00,Wednesday,3,312
+MA,Worcester,2023-11-22 04:00:00,Wednesday,4,373
+MA,Worcester,2023-11-22 05:00:00,Wednesday,5,360
+MA,Worcester,2023-11-22 06:00:00,Wednesday,6,359
+MA,Worcester,2023-11-22 07:00:00,Wednesday,7,890
+MA,Worcester,2023-11-22 08:00:00,Wednesday,8,1439
+MA,Worcester,2023-11-22 09:00:00,Wednesday,9,942
+MA,Worcester,2023-11-22 10:00:00,Wednesday,10,782
+MA,Worcester,2023-11-22 11:00:00,Wednesday,11,682
+MA,Worcester,2023-11-22 12:00:00,Wednesday,12,918
+MA,Worcester,2023-11-22 13:00:00,Wednesday,13,825
+MA,Worcester,2023-11-22 14:00:00,Wednesday,14,958
+MA,Worcester,2023-11-22 15:00:00,Wednesday,15,741
+MA,Worcester,2023-11-22 16:00:00,Wednesday,16,1423
+MA,Worcester,2023-11-22 17:00:00,Wednesday,17,1359
+MA,Worcester,2023-11-22 18:00:00,Wednesday,18,751
+MA,Worcester,2023-11-22 19:00:00,Wednesday,19,1047
+MA,Worcester,2023-11-22 20:00:00,Wednesday,20,883
+MA,Worcester,2023-11-22 21:00:00,Wednesday,21,1127
+MA,Worcester,2023-11-22 22:00:00,Wednesday,22,384
+MA,Worcester,2023-11-22 23:00:00,Wednesday,23,467
+MA,Worcester,2023-11-23 00:00:00,Thursday,0,248
+MA,Worcester,2023-11-23 01:00:00,Thursday,1,366
+MA,Worcester,2023-11-23 02:00:00,Thursday,2,369
+MA,Worcester,2023-11-23 03:00:00,Thursday,3,337
+MA,Worcester,2023-11-23 04:00:00,Thursday,4,298
+MA,Worcester,2023-11-23 05:00:00,Thursday,5,361
+MA,Worcester,2023-11-23 06:00:00,Thursday,6,281
+MA,Worcester,2023-11-23 07:00:00,Thursday,7,1464
+MA,Worcester,2023-11-23 08:00:00,Thursday,8,1241
+MA,Worcester,2023-11-23 09:00:00,Thursday,9,901
+MA,Worcester,2023-11-23 10:00:00,Thursday,10,952
+MA,Worcester,2023-11-23 11:00:00,Thursday,11,617
+MA,Worcester,2023-11-23 12:00:00,Thursday,12,695
+MA,Worcester,2023-11-23 13:00:00,Thursday,13,753
+MA,Worcester,2023-11-23 14:00:00,Thursday,14,809
+MA,Worcester,2023-11-23 15:00:00,Thursday,15,968
+MA,Worcester,2023-11-23 16:00:00,Thursday,16,993
+MA,Worcester,2023-11-23 17:00:00,Thursday,17,1187
+MA,Worcester,2023-11-23 18:00:00,Thursday,18,824
+MA,Worcester,2023-11-23 19:00:00,Thursday,19,722
+MA,Worcester,2023-11-23 20:00:00,Thursday,20,911
+MA,Worcester,2023-11-23 21:00:00,Thursday,21,821
+MA,Worcester,2023-11-23 22:00:00,Thursday,22,336
+MA,Worcester,2023-11-23 23:00:00,Thursday,23,491
+MA,Worcester,2023-11-24 00:00:00,Friday,0,402
+MA,Worcester,2023-11-24 01:00:00,Friday,1,332
+MA,Worcester,2023-11-24 02:00:00,Friday,2,325
+MA,Worcester,2023-11-24 03:00:00,Friday,3,276
+MA,Worcester,2023-11-24 04:00:00,Friday,4,289
+MA,Worcester,2023-11-24 05:00:00,Friday,5,316
+MA,Worcester,2023-11-24 06:00:00,Friday,6,435
+MA,Worcester,2023-11-24 07:00:00,Friday,7,1335
+MA,Worcester,2023-11-24 08:00:00,Friday,8,1125
+MA,Worcester,2023-11-24 09:00:00,Friday,9,944
+MA,Worcester,2023-11-24 10:00:00,Friday,10,961
+MA,Worcester,2023-11-24 11:00:00,Friday,11,875
+MA,Worcester,2023-11-24 12:00:00,Friday,12,712
+MA,Worcester,2023-11-24 13:00:00,Friday,13,934
+MA,Worcester,2023-11-24 14:00:00,Friday,14,880
+MA,Worcester,2023-11-24 15:00:00,Friday,15,984
+MA,Worcester,2023-11-24 16:00:00,Friday,16,1456
+MA,Worcester,2023-11-24 17:00:00,Friday,17,1030
+MA,Worcester,2023-11-24 18:00:00,Friday,18,877
+MA,Worcester,2023-11-24 19:00:00,Friday,19,1146
+MA,Worcester,2023-11-24 20:00:00,Friday,20,836
+MA,Worcester,2023-11-24 21:00:00,Friday,21,834
+MA,Worcester,2023-11-24 22:00:00,Friday,22,458
+MA,Worcester,2023-11-24 23:00:00,Friday,23,374
+MA,Worcester,2023-11-25 00:00:00,Saturday,0,200
+MA,Worcester,2023-11-25 01:00:00,Saturday,1,192
+MA,Worcester,2023-11-25 02:00:00,Saturday,2,192
+MA,Worcester,2023-11-25 03:00:00,Saturday,3,256
+MA,Worcester,2023-11-25 04:00:00,Saturday,4,241
+MA,Worcester,2023-11-25 05:00:00,Saturday,5,212
+MA,Worcester,2023-11-25 06:00:00,Saturday,6,224
+MA,Worcester,2023-11-25 07:00:00,Saturday,7,754
+MA,Worcester,2023-11-25 08:00:00,Saturday,8,939
+MA,Worcester,2023-11-25 09:00:00,Saturday,9,362
+MA,Worcester,2023-11-25 10:00:00,Saturday,10,590
+MA,Worcester,2023-11-25 11:00:00,Saturday,11,508
+MA,Worcester,2023-11-25 12:00:00,Saturday,12,715
+MA,Worcester,2023-11-25 13:00:00,Saturday,13,418
+MA,Worcester,2023-11-25 14:00:00,Saturday,14,605
+MA,Worcester,2023-11-25 15:00:00,Saturday,15,587
+MA,Worcester,2023-11-25 16:00:00,Saturday,16,667
+MA,Worcester,2023-11-25 17:00:00,Saturday,17,863
+MA,Worcester,2023-11-25 18:00:00,Saturday,18,678
+MA,Worcester,2023-11-25 19:00:00,Saturday,19,708
+MA,Worcester,2023-11-25 20:00:00,Saturday,20,657
+MA,Worcester,2023-11-25 21:00:00,Saturday,21,538
+MA,Worcester,2023-11-25 22:00:00,Saturday,22,273
+MA,Worcester,2023-11-25 23:00:00,Saturday,23,256
+MA,Worcester,2023-11-26 00:00:00,Sunday,0,210
+MA,Worcester,2023-11-26 01:00:00,Sunday,1,249
+MA,Worcester,2023-11-26 02:00:00,Sunday,2,207
+MA,Worcester,2023-11-26 03:00:00,Sunday,3,200
+MA,Worcester,2023-11-26 04:00:00,Sunday,4,281
+MA,Worcester,2023-11-26 05:00:00,Sunday,5,225
+MA,Worcester,2023-11-26 06:00:00,Sunday,6,273
+MA,Worcester,2023-11-26 07:00:00,Sunday,7,965
+MA,Worcester,2023-11-26 08:00:00,Sunday,8,553
+MA,Worcester,2023-11-26 09:00:00,Sunday,9,567
+MA,Worcester,2023-11-26 10:00:00,Sunday,10,690
+MA,Worcester,2023-11-26 11:00:00,Sunday,11,592
+MA,Worcester,2023-11-26 12:00:00,Sunday,12,484
+MA,Worcester,2023-11-26 13:00:00,Sunday,13,777
+MA,Worcester,2023-11-26 14:00:00,Sunday,14,655
+MA,Worcester,2023-11-26 15:00:00,Sunday,15,591
+MA,Worcester,2023-11-26 16:00:00,Sunday,16,842
+MA,Worcester,2023-11-26 17:00:00,Sunday,17,800
+MA,Worcester,2023-11-26 18:00:00,Sunday,18,553
+MA,Worcester,2023-11-26 19:00:00,Sunday,19,713
+MA,Worcester,2023-11-26 20:00:00,Sunday,20,606
+MA,Worcester,2023-11-26 21:00:00,Sunday,21,780
+MA,Worcester,2023-11-26 22:00:00,Sunday,22,237
+MA,Worcester,2023-11-26 23:00:00,Sunday,23,282
+MA,Worcester,2023-11-27 00:00:00,Monday,0,398
+MA,Springfield,2023-11-20 00:00:00,Monday,0,271
+MA,Springfield,2023-11-20 01:00:00,Monday,1,303
+MA,Springfield,2023-11-20 02:00:00,Monday,2,311
+MA,Springfield,2023-11-20 03:00:00,Monday,3,323
+MA,Springfield,2023-11-20 04:00:00,Monday,4,281
+MA,Springfield,2023-11-20 05:00:00,Monday,5,335
+MA,Springfield,2023-11-20 06:00:00,Monday,6,306
+MA,Springfield,2023-11-20 07:00:00,Monday,7,936
+MA,Springfield,2023-11-20 08:00:00,Monday,8,837
+MA,Springfield,2023-11-20 09:00:00,Monday,9,546
+MA,Springfield,2023-11-20 10:00:00,Monday,10,687
+MA,Springfield,2023-11-20 11:00:00,Monday,11,695
+MA,Springfield,2023-11-20 12:00:00,Monday,12,941
+MA,Springfield,2023-11-20 13:00:00,Monday,13,654
+MA,Springfield,2023-11-20 14:00:00,Monday,14,755
+MA,Springfield,2023-11-20 15:00:00,Monday,15,596
+MA,Springfield,2023-11-20 16:00:00,Monday,16,1010
+MA,Springfield,2023-11-20 17:00:00,Monday,17,880
+MA,Springfield,2023-11-20 18:00:00,Monday,18,630
+MA,Springfield,2023-11-20 19:00:00,Monday,19,902
+MA,Springfield,2023-11-20 20:00:00,Monday,20,816
+MA,Springfield,2023-11-20 21:00:00,Monday,21,892
+MA,Springfield,2023-11-20 22:00:00,Monday,22,307
+MA,Springfield,2023-11-20 23:00:00,Monday,23,364
+MA,Springfield,2023-11-21 00:00:00,Tuesday,0,277
+MA,Springfield,2023-11-21 01:00:00,Tuesday,1,207
+MA,Springfield,2023-11-21 02:00:00,Tuesday,2,343
+MA,Springfield,2023-11-21 03:00:00,Tuesday,3,311
+MA,Springfield,2023-11-21 04:00:00,Tuesday,4,241
+MA,Springfield,2023-11-21 05:00:00,Tuesday,5,326
+MA,Springfield,2023-11-21 06:00:00,Tuesday,6,298
+MA,Springfield,2023-11-21 07:00:00,Tuesday,7,1130
+MA,Springfield,2023-11-21 08:00:00,Tuesday,8,918
+MA,Springfield,2023-11-21 09:00:00,Tuesday,9,453
+MA,Springfield,2023-11-21 10:00:00,Tuesday,10,652
+MA,Springfield,2023-11-21 11:00:00,Tuesday,11,586
+MA,Springfield,2023-11-21 12:00:00,Tuesday,12,826
+MA,Springfield,2023-11-21 13:00:00,Tuesday,13,834
+MA,Springfield,2023-11-21 14:00:00,Tuesday,14,797
+MA,Springfield,2023-11-21 15:00:00,Tuesday,15,798
+MA,Springfield,2023-11-21 16:00:00,Tuesday,16,1209
+MA,Springfield,2023-11-21 17:00:00,Tuesday,17,971
+MA,Springfield,2023-11-21 18:00:00,Tuesday,18,901
+MA,Springfield,2023-11-21 19:00:00,Tuesday,19,809
+MA,Springfield,2023-11-21 20:00:00,Tuesday,20,908
+MA,Springfield,2023-11-21 21:00:00,Tuesday,21,933
+MA,Springfield,2023-11-21 22:00:00,Tuesday,22,260
+MA,Springfield,2023-11-21 23:00:00,Tuesday,23,361
+MA,Springfield,2023-11-22 00:00:00,Wednesday,0,205
+MA,Springfield,2023-11-22 01:00:00,Wednesday,1,339
+MA,Springfield,2023-11-22 02:00:00,Wednesday,2,261
+MA,Springfield,2023-11-22 03:00:00,Wednesday,3,209
+MA,Springfield,2023-11-22 04:00:00,Wednesday,4,263
+MA,Springfield,2023-11-22 05:00:00,Wednesday,5,440
+MA,Springfield,2023-11-22 06:00:00,Wednesday,6,325
+MA,Springfield,2023-11-22 07:00:00,Wednesday,7,968
+MA,Springfield,2023-11-22 08:00:00,Wednesday,8,1293
+MA,Springfield,2023-11-22 09:00:00,Wednesday,9,817
+MA,Springfield,2023-11-22 10:00:00,Wednesday,10,596
+MA,Springfield,2023-11-22 11:00:00,Wednesday,11,714
+MA,Springfield,2023-11-22 12:00:00,Wednesday,12,609
+MA,Springfield,2023-11-22 13:00:00,Wednesday,13,613
+MA,Springfield,2023-11-22 14:00:00,Wednesday,14,763
+MA,Springfield,2023-11-22 15:00:00,Wednesday,15,783
+MA,Springfield,2023-11-22 16:00:00,Wednesday,16,890
+MA,Springfield,2023-11-22 17:00:00,Wednesday,17,553
+MA,Springfield,2023-11-22 18:00:00,Wednesday,18,606
+MA,Springfield,2023-11-22 19:00:00,Wednesday,19,836
+MA,Springfield,2023-11-22 20:00:00,Wednesday,20,672
+MA,Springfield,2023-11-22 21:00:00,Wednesday,21,797
+MA,Springfield,2023-11-22 22:00:00,Wednesday,22,329
+MA,Springfield,2023-11-22 23:00:00,Wednesday,23,265
+MA,Springfield,2023-11-23 00:00:00,Thursday,0,216
+MA,Springfield,2023-11-23 01:00:00,Thursday,1,303
+MA,Springfield,2023-11-23 02:00:00,Thursday,2,280
+MA,Springfield,2023-11-23 03:00:00,Thursday,3,313
+MA,Springfield,2023-11-23 04:00:00,Thursday,4,278
+MA,Springfield,2023-11-23 05:00:00,Thursday,5,298
+MA,Springfield,2023-11-23 06:00:00,Thursday,6,228
+MA,Springfield,2023-11-23 07:00:00,Thursday,7,1155
+MA,Springfield,2023-11-23 08:00:00,Thursday,8,903
+MA,Springfield,2023-11-23 09:00:00,Thursday,9,746
+MA,Springfield,2023-11-23 10:00:00,Thursday,10,730
+MA,Springfield,2023-11-23 11:00:00,Thursday,11,622
+MA,Springfield,2023-11-23 12:00:00,Thursday,12,829
+MA,Springfield,2023-11-23 13:00:00,Thursday,13,515
+MA,Springfield,2023-11-23 14:00:00,Thursday,14,546
+MA,Springfield,2023-11-23 15:00:00,Thursday,15,904
+MA,Springfield,2023-11-23 16:00:00,Thursday,16,1327
+MA,Springfield,2023-11-23 17:00:00,Thursday,17,1240
+MA,Springfield,2023-11-23 18:00:00,Thursday,18,911
+MA,Springfield,2023-11-23 19:00:00,Thursday,19,799
+MA,Springfield,2023-11-23 20:00:00,Thursday,20,681
+MA,Springfield,2023-11-23 21:00:00,Thursday,21,970
+MA,Springfield,2023-11-23 22:00:00,Thursday,22,291
+MA,Springfield,2023-11-23 23:00:00,Thursday,23,294
+MA,Springfield,2023-11-24 00:00:00,Friday,0,232
+MA,Springfield,2023-11-24 01:00:00,Friday,1,280
+MA,Springfield,2023-11-24 02:00:00,Friday,2,388
+MA,Springfield,2023-11-24 03:00:00,Friday,3,378
+MA,Springfield,2023-11-24 04:00:00,Friday,4,354
+MA,Springfield,2023-11-24 05:00:00,Friday,5,258
+MA,Springfield,2023-11-24 06:00:00,Friday,6,254
+MA,Springfield,2023-11-24 07:00:00,Friday,7,1187
+MA,Springfield,2023-11-24 08:00:00,Friday,8,998
+MA,Springfield,2023-11-24 09:00:00,Friday,9,979
+MA,Springfield,2023-11-24 10:00:00,Friday,10,631
+MA,Springfield,2023-11-24 11:00:00,Friday,11,522
+MA,Springfield,2023-11-24 12:00:00,Friday,12,734
+MA,Springfield,2023-11-24 13:00:00,Friday,13,908
+MA,Springfield,2023-11-24 14:00:00,Friday,14,783
+MA,Springfield,2023-11-24 15:00:00,Friday,15,637
+MA,Springfield,2023-11-24 16:00:00,Friday,16,925
+MA,Springfield,2023-11-24 17:00:00,Friday,17,1210
+MA,Springfield,2023-11-24 18:00:00,Friday,18,591
+MA,Springfield,2023-11-24 19:00:00,Friday,19,948
+MA,Springfield,2023-11-24 20:00:00,Friday,20,724
+MA,Springfield,2023-11-24 21:00:00,Friday,21,997
+MA,Springfield,2023-11-24 22:00:00,Friday,22,279
+MA,Springfield,2023-11-24 23:00:00,Friday,23,349
+MA,Springfield,2023-11-25 00:00:00,Saturday,0,166
+MA,Springfield,2023-11-25 01:00:00,Saturday,1,182
+MA,Springfield,2023-11-25 02:00:00,Saturday,2,226
+MA,Springfield,2023-11-25 03:00:00,Saturday,3,154
+MA,Springfield,2023-11-25 04:00:00,Saturday,4,212
+MA,Springfield,2023-11-25 05:00:00,Saturday,5,240
+MA,Springfield,2023-11-25 06:00:00,Saturday,6,194
+MA,Springfield,2023-11-25 07:00:00,Saturday,7,1052
+MA,Springfield,2023-11-25 08:00:00,Saturday,8,545
+MA,Springfield,2023-11-25 09:00:00,Saturday,9,570
+MA,Springfield,2023-11-25 10:00:00,Saturday,10,501
+MA,Springfield,2023-11-25 11:00:00,Saturday,11,535
+MA,Springfield,2023-11-25 12:00:00,Saturday,12,601
+MA,Springfield,2023-11-25 13:00:00,Saturday,13,490
+MA,Springfield,2023-11-25 14:00:00,Saturday,14,445
+MA,Springfield,2023-11-25 15:00:00,Saturday,15,546
+MA,Springfield,2023-11-25 16:00:00,Saturday,16,789
+MA,Springfield,2023-11-25 17:00:00,Saturday,17,598
+MA,Springfield,2023-11-25 18:00:00,Saturday,18,473
+MA,Springfield,2023-11-25 19:00:00,Saturday,19,518
+MA,Springfield,2023-11-25 20:00:00,Saturday,20,648
+MA,Springfield,2023-11-25 21:00:00,Saturday,21,417
+MA,Springfield,2023-11-25 22:00:00,Saturday,22,190
+MA,Springfield,2023-11-25 23:00:00,Saturday,23,212
+MA,Springfield,2023-11-26 00:00:00,Sunday,0,224
+MA,Springfield,2023-11-26 01:00:00,Sunday,1,231
+MA,Springfield,2023-11-26 02:00:00,Sunday,2,267
+MA,Springfield,2023-11-26 03:00:00,Sunday,3,181
+MA,Springfield,2023-11-26 04:00:00,Sunday,4,151
+MA,Springfield,2023-11-26 05:00:00,Sunday,5,249
+MA,Springfield,2023-11-26 06:00:00,Sunday,6,243
+MA,Springfield,2023-11-26 07:00:00,Sunday,7,586
+MA,Springfield,2023-11-26 08:00:00,Sunday,8,804
+MA,Springfield,2023-11-26 09:00:00,Sunday,9,389
+MA,Springfield,2023-11-26 10:00:00,Sunday,10,474
+MA,Springfield,2023-11-26 11:00:00,Sunday,11,437
+MA,Springfield,2023-11-26 12:00:00,Sunday,12,463
+MA,Springfield,2023-11-26 13:00:00,Sunday,13,498
+MA,Springfield,2023-11-26 14:00:00,Sunday,14,472
+MA,Springfield,2023-11-26 15:00:00,Sunday,15,603
+MA,Springfield,2023-11-26 16:00:00,Sunday,16,676
+MA,Springfield,2023-11-26 17:00:00,Sunday,17,698
+MA,Springfield,2023-11-26 18:00:00,Sunday,18,502
+MA,Springfield,2023-11-26 19:00:00,Sunday,19,666
+MA,Springfield,2023-11-26 20:00:00,Sunday,20,489
+MA,Springfield,2023-11-26 21:00:00,Sunday,21,543
+MA,Springfield,2023-11-26 22:00:00,Sunday,22,213
+MA,Springfield,2023-11-26 23:00:00,Sunday,23,207
+MA,Springfield,2023-11-27 00:00:00,Monday,0,325
+NJ,Newark,2023-11-20 00:00:00,Monday,0,655
+NJ,Newark,2023-11-20 01:00:00,Monday,1,568
+NJ,Newark,2023-11-20 02:00:00,Monday,2,442
+NJ,Newark,2023-11-20 03:00:00,Monday,3,467
+NJ,Newark,2023-11-20 04:00:00,Monday,4,534
+NJ,Newark,2023-11-20 05:00:00,Monday,5,558
+NJ,Newark,2023-11-20 06:00:00,Monday,6,479
+NJ,Newark,2023-11-20 07:00:00,Monday,7,1667
+NJ,Newark,2023-11-20 08:00:00,Monday,8,1383
+NJ,Newark,2023-11-20 09:00:00,Monday,9,1147
+NJ,Newark,2023-11-20 10:00:00,Monday,10,1140
+NJ,Newark,2023-11-20 11:00:00,Monday,11,1154
+NJ,Newark,2023-11-20 12:00:00,Monday,12,1120
+NJ,Newark,2023-11-20 13:00:00,Monday,13,1050
+NJ,Newark,2023-11-20 14:00:00,Monday,14,1104
+NJ,Newark,2023-11-20 15:00:00,Monday,15,1073
+NJ,Newark,2023-11-20 16:00:00,Monday,16,1857
+NJ,Newark,2023-11-20 17:00:00,Monday,17,2034
+NJ,Newark,2023-11-20 18:00:00,Monday,18,1196
+NJ,Newark,2023-11-20 19:00:00,Monday,19,1403
+NJ,Newark,2023-11-20 20:00:00,Monday,20,1188
+NJ,Newark,2023-11-20 21:00:00,Monday,21,1561
+NJ,Newark,2023-11-20 22:00:00,Monday,22,490
+NJ,Newark,2023-11-20 23:00:00,Monday,23,550
+NJ,Newark,2023-11-21 00:00:00,Tuesday,0,596
+NJ,Newark,2023-11-21 01:00:00,Tuesday,1,433
+NJ,Newark,2023-11-21 02:00:00,Tuesday,2,390
+NJ,Newark,2023-11-21 03:00:00,Tuesday,3,570
+NJ,Newark,2023-11-21 04:00:00,Tuesday,4,486
+NJ,Newark,2023-11-21 05:00:00,Tuesday,5,442
+NJ,Newark,2023-11-21 06:00:00,Tuesday,6,471
+NJ,Newark,2023-11-21 07:00:00,Tuesday,7,1272
+NJ,Newark,2023-11-21 08:00:00,Tuesday,8,1722
+NJ,Newark,2023-11-21 09:00:00,Tuesday,9,1216
+NJ,Newark,2023-11-21 10:00:00,Tuesday,10,960
+NJ,Newark,2023-11-21 11:00:00,Tuesday,11,1080
+NJ,Newark,2023-11-21 12:00:00,Tuesday,12,1590
+NJ,Newark,2023-11-21 13:00:00,Tuesday,13,1340
+NJ,Newark,2023-11-21 14:00:00,Tuesday,14,1387
+NJ,Newark,2023-11-21 15:00:00,Tuesday,15,1117
+NJ,Newark,2023-11-21 16:00:00,Tuesday,16,2403
+NJ,Newark,2023-11-21 17:00:00,Tuesday,17,1618
+NJ,Newark,2023-11-21 18:00:00,Tuesday,18,1384
+NJ,Newark,2023-11-21 19:00:00,Tuesday,19,1235
+NJ,Newark,2023-11-21 20:00:00,Tuesday,20,1010
+NJ,Newark,2023-11-21 21:00:00,Tuesday,21,1446
+NJ,Newark,2023-11-21 22:00:00,Tuesday,22,530
+NJ,Newark,2023-11-21 23:00:00,Tuesday,23,492
+NJ,Newark,2023-11-22 00:00:00,Wednesday,0,464
+NJ,Newark,2023-11-22 01:00:00,Wednesday,1,476
+NJ,Newark,2023-11-22 02:00:00,Wednesday,2,547
+NJ,Newark,2023-11-22 03:00:00,Wednesday,3,507
+NJ,Newark,2023-11-22 04:00:00,Wednesday,4,665
+NJ,Newark,2023-11-22 05:00:00,Wednesday,5,587
+NJ,Newark,2023-11-22 06:00:00,Wednesday,6,524
+NJ,Newark,2023-11-22 07:00:00,Wednesday,7,1603
+NJ,Newark,2023-11-22 08:00:00,Wednesday,8,2102
+NJ,Newark,2023-11-22 09:00:00,Wednesday,9,1135
+NJ,Newark,2023-11-22 10:00:00,Wednesday,10,1385
+NJ,Newark,2023-11-22 11:00:00,Wednesday,11,1334
+NJ,Newark,2023-11-22 12:00:00,Wednesday,12,1289
+NJ,Newark,2023-11-22 13:00:00,Wednesday,13,1348
+NJ,Newark,2023-11-22 14:00:00,Wednesday,14,1576
+NJ,Newark,2023-11-22 15:00:00,Wednesday,15,992
+NJ,Newark,2023-11-22 16:00:00,Wednesday,16,1615
+NJ,Newark,2023-11-22 17:00:00,Wednesday,17,1529
+NJ,Newark,2023-11-22 18:00:00,Wednesday,18,1074
+NJ,Newark,2023-11-22 19:00:00,Wednesday,19,1531
+NJ,Newark,2023-11-22 20:00:00,Wednesday,20,1319
+NJ,Newark,2023-11-22 21:00:00,Wednesday,21,1253
+NJ,Newark,2023-11-22 22:00:00,Wednesday,22,278
+NJ,Newark,2023-11-22 23:00:00,Wednesday,23,510
+NJ,Newark,2023-11-23 00:00:00,Thursday,0,514
+NJ,Newark,2023-11-23 01:00:00,Thursday,1,452
+NJ,Newark,2023-11-23 02:00:00,Thursday,2,386
+NJ,Newark,2023-11-23 03:00:00,Thursday,3,647
+NJ,Newark,2023-11-23 04:00:00,Thursday,4,428
+NJ,Newark,2023-11-23 05:00:00,Thursday,5,527
+NJ,Newark,2023-11-23 06:00:00,Thursday,6,604
+NJ,Newark,2023-11-23 07:00:00,Thursday,7,1993
+NJ,Newark,2023-11-23 08:00:00,Thursday,8,1815
+NJ,Newark,2023-11-23 09:00:00,Thursday,9,1123
+NJ,Newark,2023-11-23 10:00:00,Thursday,10,981
+NJ,Newark,2023-11-23 11:00:00,Thursday,11,1208
+NJ,Newark,2023-11-23 12:00:00,Thursday,12,1195
+NJ,Newark,2023-11-23 13:00:00,Thursday,13,969
+NJ,Newark,2023-11-23 14:00:00,Thursday,14,1254
+NJ,Newark,2023-11-23 15:00:00,Thursday,15,1282
+NJ,Newark,2023-11-23 16:00:00,Thursday,16,1916
+NJ,Newark,2023-11-23 17:00:00,Thursday,17,1889
+NJ,Newark,2023-11-23 18:00:00,Thursday,18,1469
+NJ,Newark,2023-11-23 19:00:00,Thursday,19,993
+NJ,Newark,2023-11-23 20:00:00,Thursday,20,1270
+NJ,Newark,2023-11-23 21:00:00,Thursday,21,1169
+NJ,Newark,2023-11-23 22:00:00,Thursday,22,563
+NJ,Newark,2023-11-23 23:00:00,Thursday,23,441
+NJ,Newark,2023-11-24 00:00:00,Friday,0,514
+NJ,Newark,2023-11-24 01:00:00,Friday,1,463
+NJ,Newark,2023-11-24 02:00:00,Friday,2,544
+NJ,Newark,2023-11-24 03:00:00,Friday,3,490
+NJ,Newark,2023-11-24 04:00:00,Friday,4,480
+NJ,Newark,2023-11-24 05:00:00,Friday,5,482
+NJ,Newark,2023-11-24 06:00:00,Friday,6,556
+NJ,Newark,2023-11-24 07:00:00,Friday,7,2080
+NJ,Newark,2023-11-24 08:00:00,Friday,8,1651
+NJ,Newark,2023-11-24 09:00:00,Friday,9,1169
+NJ,Newark,2023-11-24 10:00:00,Friday,10,978
+NJ,Newark,2023-11-24 11:00:00,Friday,11,1168
+NJ,Newark,2023-11-24 12:00:00,Friday,12,1144
+NJ,Newark,2023-11-24 13:00:00,Friday,13,1076
+NJ,Newark,2023-11-24 14:00:00,Friday,14,1384
+NJ,Newark,2023-11-24 15:00:00,Friday,15,1360
+NJ,Newark,2023-11-24 16:00:00,Friday,16,1742
+NJ,Newark,2023-11-24 17:00:00,Friday,17,2242
+NJ,Newark,2023-11-24 18:00:00,Friday,18,1263
+NJ,Newark,2023-11-24 19:00:00,Friday,19,1222
+NJ,Newark,2023-11-24 20:00:00,Friday,20,1321
+NJ,Newark,2023-11-24 21:00:00,Friday,21,1290
+NJ,Newark,2023-11-24 22:00:00,Friday,22,475
+NJ,Newark,2023-11-24 23:00:00,Friday,23,455
+NJ,Newark,2023-11-25 00:00:00,Saturday,0,362
+NJ,Newark,2023-11-25 01:00:00,Saturday,1,343
+NJ,Newark,2023-11-25 02:00:00,Saturday,2,339
+NJ,Newark,2023-11-25 03:00:00,Saturday,3,369
+NJ,Newark,2023-11-25 04:00:00,Saturday,4,383
+NJ,Newark,2023-11-25 05:00:00,Saturday,5,329
+NJ,Newark,2023-11-25 06:00:00,Saturday,6,200
+NJ,Newark,2023-11-25 07:00:00,Saturday,7,845
+NJ,Newark,2023-11-25 08:00:00,Saturday,8,1003
+NJ,Newark,2023-11-25 09:00:00,Saturday,9,791
+NJ,Newark,2023-11-25 10:00:00,Saturday,10,753
+NJ,Newark,2023-11-25 11:00:00,Saturday,11,1021
+NJ,Newark,2023-11-25 12:00:00,Saturday,12,465
+NJ,Newark,2023-11-25 13:00:00,Saturday,13,817
+NJ,Newark,2023-11-25 14:00:00,Saturday,14,707
+NJ,Newark,2023-11-25 15:00:00,Saturday,15,815
+NJ,Newark,2023-11-25 16:00:00,Saturday,16,1454
+NJ,Newark,2023-11-25 17:00:00,Saturday,17,1360
+NJ,Newark,2023-11-25 18:00:00,Saturday,18,1025
+NJ,Newark,2023-11-25 19:00:00,Saturday,19,924
+NJ,Newark,2023-11-25 20:00:00,Saturday,20,815
+NJ,Newark,2023-11-25 21:00:00,Saturday,21,659
+NJ,Newark,2023-11-25 22:00:00,Saturday,22,387
+NJ,Newark,2023-11-25 23:00:00,Saturday,23,336
+NJ,Newark,2023-11-26 00:00:00,Sunday,0,269
+NJ,Newark,2023-11-26 01:00:00,Sunday,1,297
+NJ,Newark,2023-11-26 02:00:00,Sunday,2,319
+NJ,Newark,2023-11-26 03:00:00,Sunday,3,468
+NJ,Newark,2023-11-26 04:00:00,Sunday,4,279
+NJ,Newark,2023-11-26 05:00:00,Sunday,5,290
+NJ,Newark,2023-11-26 06:00:00,Sunday,6,312
+NJ,Newark,2023-11-26 07:00:00,Sunday,7,1300
+NJ,Newark,2023-11-26 08:00:00,Sunday,8,1234
+NJ,Newark,2023-11-26 09:00:00,Sunday,9,877
+NJ,Newark,2023-11-26 10:00:00,Sunday,10,972
+NJ,Newark,2023-11-26 11:00:00,Sunday,11,551
+NJ,Newark,2023-11-26 12:00:00,Sunday,12,962
+NJ,Newark,2023-11-26 13:00:00,Sunday,13,726
+NJ,Newark,2023-11-26 14:00:00,Sunday,14,523
+NJ,Newark,2023-11-26 15:00:00,Sunday,15,714
+NJ,Newark,2023-11-26 16:00:00,Sunday,16,1596
+NJ,Newark,2023-11-26 17:00:00,Sunday,17,1057
+NJ,Newark,2023-11-26 18:00:00,Sunday,18,732
+NJ,Newark,2023-11-26 19:00:00,Sunday,19,684
+NJ,Newark,2023-11-26 20:00:00,Sunday,20,616
+NJ,Newark,2023-11-26 21:00:00,Sunday,21,991
+NJ,Newark,2023-11-26 22:00:00,Sunday,22,371
+NJ,Newark,2023-11-26 23:00:00,Sunday,23,395
+NJ,Newark,2023-11-27 00:00:00,Monday,0,479
+NJ,Jersey City,2023-11-20 00:00:00,Monday,0,453
+NJ,Jersey City,2023-11-20 01:00:00,Monday,1,589
+NJ,Jersey City,2023-11-20 02:00:00,Monday,2,399
+NJ,Jersey City,2023-11-20 03:00:00,Monday,3,387
+NJ,Jersey City,2023-11-20 04:00:00,Monday,4,483
+NJ,Jersey City,2023-11-20 05:00:00,Monday,5,521
+NJ,Jersey City,2023-11-20 06:00:00,Monday,6,534
+NJ,Jersey City,2023-11-20 07:00:00,Monday,7,1294
+NJ,Jersey City,2023-11-20 08:00:00,Monday,8,1807
+NJ,Jersey City,2023-11-20 09:00:00,Monday,9,941
+NJ,Jersey City,2023-11-20 10:00:00,Monday,10,1107
+NJ,Jersey City,2023-11-20 11:00:00,Monday,11,1255
+NJ,Jersey City,2023-11-20 12:00:00,Monday,12,1093
+NJ,Jersey City,2023-11-20 13:00:00,Monday,13,984
+NJ,Jersey City,2023-11-20 14:00:00,Monday,14,800
+NJ,Jersey City,2023-11-20 15:00:00,Monday,15,1070
+NJ,Jersey City,2023-11-20 16:00:00,Monday,16,1418
+NJ,Jersey City,2023-11-20 17:00:00,Monday,17,1269
+NJ,Jersey City,2023-11-20 18:00:00,Monday,18,1256
+NJ,Jersey City,2023-11-20 19:00:00,Monday,19,1040
+NJ,Jersey City,2023-11-20 20:00:00,Monday,20,1036
+NJ,Jersey City,2023-11-20 21:00:00,Monday,21,1304
+NJ,Jersey City,2023-11-20 22:00:00,Monday,22,441
+NJ,Jersey City,2023-11-20 23:00:00,Monday,23,470
+NJ,Jersey City,2023-11-21 00:00:00,Tuesday,0,459
+NJ,Jersey City,2023-11-21 01:00:00,Tuesday,1,511
+NJ,Jersey City,2023-11-21 02:00:00,Tuesday,2,536
+NJ,Jersey City,2023-11-21 03:00:00,Tuesday,3,321
+NJ,Jersey City,2023-11-21 04:00:00,Tuesday,4,375
+NJ,Jersey City,2023-11-21 05:00:00,Tuesday,5,444
+NJ,Jersey City,2023-11-21 06:00:00,Tuesday,6,474
+NJ,Jersey City,2023-11-21 07:00:00,Tuesday,7,1560
+NJ,Jersey City,2023-11-21 08:00:00,Tuesday,8,1633
+NJ,Jersey City,2023-11-21 09:00:00,Tuesday,9,1123
+NJ,Jersey City,2023-11-21 10:00:00,Tuesday,10,909
+NJ,Jersey City,2023-11-21 11:00:00,Tuesday,11,993
+NJ,Jersey City,2023-11-21 12:00:00,Tuesday,12,1297
+NJ,Jersey City,2023-11-21 13:00:00,Tuesday,13,1257
+NJ,Jersey City,2023-11-21 14:00:00,Tuesday,14,1206
+NJ,Jersey City,2023-11-21 15:00:00,Tuesday,15,1237
+NJ,Jersey City,2023-11-21 16:00:00,Tuesday,16,1729
+NJ,Jersey City,2023-11-21 17:00:00,Tuesday,17,1593
+NJ,Jersey City,2023-11-21 18:00:00,Tuesday,18,1224
+NJ,Jersey City,2023-11-21 19:00:00,Tuesday,19,1358
+NJ,Jersey City,2023-11-21 20:00:00,Tuesday,20,1237
+NJ,Jersey City,2023-11-21 21:00:00,Tuesday,21,772
+NJ,Jersey City,2023-11-21 22:00:00,Tuesday,22,371
+NJ,Jersey City,2023-11-21 23:00:00,Tuesday,23,493
+NJ,Jersey City,2023-11-22 00:00:00,Wednesday,0,356
+NJ,Jersey City,2023-11-22 01:00:00,Wednesday,1,398
+NJ,Jersey City,2023-11-22 02:00:00,Wednesday,2,446
+NJ,Jersey City,2023-11-22 03:00:00,Wednesday,3,489
+NJ,Jersey City,2023-11-22 04:00:00,Wednesday,4,353
+NJ,Jersey City,2023-11-22 05:00:00,Wednesday,5,407
+NJ,Jersey City,2023-11-22 06:00:00,Wednesday,6,527
+NJ,Jersey City,2023-11-22 07:00:00,Wednesday,7,1130
+NJ,Jersey City,2023-11-22 08:00:00,Wednesday,8,1835
+NJ,Jersey City,2023-11-22 09:00:00,Wednesday,9,1020
+NJ,Jersey City,2023-11-22 10:00:00,Wednesday,10,1210
+NJ,Jersey City,2023-11-22 11:00:00,Wednesday,11,1176
+NJ,Jersey City,2023-11-22 12:00:00,Wednesday,12,1103
+NJ,Jersey City,2023-11-22 13:00:00,Wednesday,13,1201
+NJ,Jersey City,2023-11-22 14:00:00,Wednesday,14,1269
+NJ,Jersey City,2023-11-22 15:00:00,Wednesday,15,1109
+NJ,Jersey City,2023-11-22 16:00:00,Wednesday,16,1582
+NJ,Jersey City,2023-11-22 17:00:00,Wednesday,17,1216
+NJ,Jersey City,2023-11-22 18:00:00,Wednesday,18,1041
+NJ,Jersey City,2023-11-22 19:00:00,Wednesday,19,1031
+NJ,Jersey City,2023-11-22 20:00:00,Wednesday,20,1123
+NJ,Jersey City,2023-11-22 21:00:00,Wednesday,21,1297
+NJ,Jersey City,2023-11-22 22:00:00,Wednesday,22,479
+NJ,Jersey City,2023-11-22 23:00:00,Wednesday,23,570
+NJ,Jersey City,2023-11-23 00:00:00,Thursday,0,354
+NJ,Jersey City,2023-11-23 01:00:00,Thursday,1,421
+NJ,Jersey City,2023-11-23 02:00:00,Thursday,2,425
+NJ,Jersey City,2023-11-23 03:00:00,Thursday,3,350
+NJ,Jersey City,2023-11-23 04:00:00,Thursday,4,465
+NJ,Jersey City,2023-11-23 05:00:00,Thursday,5,394
+NJ,Jersey City,2023-11-23 06:00:00,Thursday,6,465
+NJ,Jersey City,2023-11-23 07:00:00,Thursday,7,1785
+NJ,Jersey City,2023-11-23 08:00:00,Thursday,8,1609
+NJ,Jersey City,2023-11-23 09:00:00,Thursday,9,1149
+NJ,Jersey City,2023-11-23 10:00:00,Thursday,10,984
+NJ,Jersey City,2023-11-23 11:00:00,Thursday,11,1221
+NJ,Jersey City,2023-11-23 12:00:00,Thursday,12,999
+NJ,Jersey City,2023-11-23 13:00:00,Thursday,13,1078
+NJ,Jersey City,2023-11-23 14:00:00,Thursday,14,1170
+NJ,Jersey City,2023-11-23 15:00:00,Thursday,15,1051
+NJ,Jersey City,2023-11-23 16:00:00,Thursday,16,1956
+NJ,Jersey City,2023-11-23 17:00:00,Thursday,17,1241
+NJ,Jersey City,2023-11-23 18:00:00,Thursday,18,1378
+NJ,Jersey City,2023-11-23 19:00:00,Thursday,19,1291
+NJ,Jersey City,2023-11-23 20:00:00,Thursday,20,966
+NJ,Jersey City,2023-11-23 21:00:00,Thursday,21,1243
+NJ,Jersey City,2023-11-23 22:00:00,Thursday,22,279
+NJ,Jersey City,2023-11-23 23:00:00,Thursday,23,554
+NJ,Jersey City,2023-11-24 00:00:00,Friday,0,436
+NJ,Jersey City,2023-11-24 01:00:00,Friday,1,366
+NJ,Jersey City,2023-11-24 02:00:00,Friday,2,550
+NJ,Jersey City,2023-11-24 03:00:00,Friday,3,369
+NJ,Jersey City,2023-11-24 04:00:00,Friday,4,448
+NJ,Jersey City,2023-11-24 05:00:00,Friday,5,466
+NJ,Jersey City,2023-11-24 06:00:00,Friday,6,504
+NJ,Jersey City,2023-11-24 07:00:00,Friday,7,1320
+NJ,Jersey City,2023-11-24 08:00:00,Friday,8,1838
+NJ,Jersey City,2023-11-24 09:00:00,Friday,9,910
+NJ,Jersey City,2023-11-24 10:00:00,Friday,10,1251
+NJ,Jersey City,2023-11-24 11:00:00,Friday,11,1247
+NJ,Jersey City,2023-11-24 12:00:00,Friday,12,1093
+NJ,Jersey City,2023-11-24 13:00:00,Friday,13,1071
+NJ,Jersey City,2023-11-24 14:00:00,Friday,14,928
+NJ,Jersey City,2023-11-24 15:00:00,Friday,15,1197
+NJ,Jersey City,2023-11-24 16:00:00,Friday,16,1702
+NJ,Jersey City,2023-11-24 17:00:00,Friday,17,1520
+NJ,Jersey City,2023-11-24 18:00:00,Friday,18,1152
+NJ,Jersey City,2023-11-24 19:00:00,Friday,19,997
+NJ,Jersey City,2023-11-24 20:00:00,Friday,20,722
+NJ,Jersey City,2023-11-24 21:00:00,Friday,21,1069
+NJ,Jersey City,2023-11-24 22:00:00,Friday,22,583
+NJ,Jersey City,2023-11-24 23:00:00,Friday,23,472
+NJ,Jersey City,2023-11-25 00:00:00,Saturday,0,295
+NJ,Jersey City,2023-11-25 01:00:00,Saturday,1,325
+NJ,Jersey City,2023-11-25 02:00:00,Saturday,2,344
+NJ,Jersey City,2023-11-25 03:00:00,Saturday,3,413
+NJ,Jersey City,2023-11-25 04:00:00,Saturday,4,357
+NJ,Jersey City,2023-11-25 05:00:00,Saturday,5,312
+NJ,Jersey City,2023-11-25 06:00:00,Saturday,6,266
+NJ,Jersey City,2023-11-25 07:00:00,Saturday,7,1203
+NJ,Jersey City,2023-11-25 08:00:00,Saturday,8,1181
+NJ,Jersey City,2023-11-25 09:00:00,Saturday,9,836
+NJ,Jersey City,2023-11-25 10:00:00,Saturday,10,773
+NJ,Jersey City,2023-11-25 11:00:00,Saturday,11,664
+NJ,Jersey City,2023-11-25 12:00:00,Saturday,12,910
+NJ,Jersey City,2023-11-25 13:00:00,Saturday,13,800
+NJ,Jersey City,2023-11-25 14:00:00,Saturday,14,766
+NJ,Jersey City,2023-11-25 15:00:00,Saturday,15,741
+NJ,Jersey City,2023-11-25 16:00:00,Saturday,16,1161
+NJ,Jersey City,2023-11-25 17:00:00,Saturday,17,1436
+NJ,Jersey City,2023-11-25 18:00:00,Saturday,18,942
+NJ,Jersey City,2023-11-25 19:00:00,Saturday,19,720
+NJ,Jersey City,2023-11-25 20:00:00,Saturday,20,886
+NJ,Jersey City,2023-11-25 21:00:00,Saturday,21,985
+NJ,Jersey City,2023-11-25 22:00:00,Saturday,22,375
+NJ,Jersey City,2023-11-25 23:00:00,Saturday,23,320
+NJ,Jersey City,2023-11-26 00:00:00,Sunday,0,269
+NJ,Jersey City,2023-11-26 01:00:00,Sunday,1,317
+NJ,Jersey City,2023-11-26 02:00:00,Sunday,2,355
+NJ,Jersey City,2023-11-26 03:00:00,Sunday,3,311
+NJ,Jersey City,2023-11-26 04:00:00,Sunday,4,376
+NJ,Jersey City,2023-11-26 05:00:00,Sunday,5,236
+NJ,Jersey City,2023-11-26 06:00:00,Sunday,6,184
+NJ,Jersey City,2023-11-26 07:00:00,Sunday,7,1051
+NJ,Jersey City,2023-11-26 08:00:00,Sunday,8,1021
+NJ,Jersey City,2023-11-26 09:00:00,Sunday,9,716
+NJ,Jersey City,2023-11-26 10:00:00,Sunday,10,807
+NJ,Jersey City,2023-11-26 11:00:00,Sunday,11,718
+NJ,Jersey City,2023-11-26 12:00:00,Sunday,12,696
+NJ,Jersey City,2023-11-26 13:00:00,Sunday,13,694
+NJ,Jersey City,2023-11-26 14:00:00,Sunday,14,885
+NJ,Jersey City,2023-11-26 15:00:00,Sunday,15,710
+NJ,Jersey City,2023-11-26 16:00:00,Sunday,16,883
+NJ,Jersey City,2023-11-26 17:00:00,Sunday,17,979
+NJ,Jersey City,2023-11-26 18:00:00,Sunday,18,539
+NJ,Jersey City,2023-11-26 19:00:00,Sunday,19,700
+NJ,Jersey City,2023-11-26 20:00:00,Sunday,20,652
+NJ,Jersey City,2023-11-26 21:00:00,Sunday,21,762
+NJ,Jersey City,2023-11-26 22:00:00,Sunday,22,287
+NJ,Jersey City,2023-11-26 23:00:00,Sunday,23,303
+NJ,Jersey City,2023-11-27 00:00:00,Monday,0,435
+NJ,Paterson,2023-11-20 00:00:00,Monday,0,339
+NJ,Paterson,2023-11-20 01:00:00,Monday,1,291
+NJ,Paterson,2023-11-20 02:00:00,Monday,2,271
+NJ,Paterson,2023-11-20 03:00:00,Monday,3,311
+NJ,Paterson,2023-11-20 04:00:00,Monday,4,247
+NJ,Paterson,2023-11-20 05:00:00,Monday,5,287
+NJ,Paterson,2023-11-20 06:00:00,Monday,6,266
+NJ,Paterson,2023-11-20 07:00:00,Monday,7,1038
+NJ,Paterson,2023-11-20 08:00:00,Monday,8,1373
+NJ,Paterson,2023-11-20 09:00:00,Monday,9,541
+NJ,Paterson,2023-11-20 10:00:00,Monday,10,743
+NJ,Paterson,2023-11-20 11:00:00,Monday,11,692
+NJ,Paterson,2023-11-20 12:00:00,Monday,12,768
+NJ,Paterson,2023-11-20 13:00:00,Monday,13,737
+NJ,Paterson,2023-11-20 14:00:00,Monday,14,862
+NJ,Paterson,2023-11-20 15:00:00,Monday,15,580
+NJ,Paterson,2023-11-20 16:00:00,Monday,16,1000
+NJ,Paterson,2023-11-20 17:00:00,Monday,17,1521
+NJ,Paterson,2023-11-20 18:00:00,Monday,18,837
+NJ,Paterson,2023-11-20 19:00:00,Monday,19,897
+NJ,Paterson,2023-11-20 20:00:00,Monday,20,724
+NJ,Paterson,2023-11-20 21:00:00,Monday,21,695
+NJ,Paterson,2023-11-20 22:00:00,Monday,22,294
+NJ,Paterson,2023-11-20 23:00:00,Monday,23,279
+NJ,Paterson,2023-11-21 00:00:00,Tuesday,0,319
+NJ,Paterson,2023-11-21 01:00:00,Tuesday,1,287
+NJ,Paterson,2023-11-21 02:00:00,Tuesday,2,354
+NJ,Paterson,2023-11-21 03:00:00,Tuesday,3,298
+NJ,Paterson,2023-11-21 04:00:00,Tuesday,4,238
+NJ,Paterson,2023-11-21 05:00:00,Tuesday,5,269
+NJ,Paterson,2023-11-21 06:00:00,Tuesday,6,428
+NJ,Paterson,2023-11-21 07:00:00,Tuesday,7,1056
+NJ,Paterson,2023-11-21 08:00:00,Tuesday,8,1131
+NJ,Paterson,2023-11-21 09:00:00,Tuesday,9,726
+NJ,Paterson,2023-11-21 10:00:00,Tuesday,10,1006
+NJ,Paterson,2023-11-21 11:00:00,Tuesday,11,656
+NJ,Paterson,2023-11-21 12:00:00,Tuesday,12,628
+NJ,Paterson,2023-11-21 13:00:00,Tuesday,13,589
+NJ,Paterson,2023-11-21 14:00:00,Tuesday,14,763
+NJ,Paterson,2023-11-21 15:00:00,Tuesday,15,702
+NJ,Paterson,2023-11-21 16:00:00,Tuesday,16,1135
+NJ,Paterson,2023-11-21 17:00:00,Tuesday,17,1017
+NJ,Paterson,2023-11-21 18:00:00,Tuesday,18,551
+NJ,Paterson,2023-11-21 19:00:00,Tuesday,19,707
+NJ,Paterson,2023-11-21 20:00:00,Tuesday,20,660
+NJ,Paterson,2023-11-21 21:00:00,Tuesday,21,842
+NJ,Paterson,2023-11-21 22:00:00,Tuesday,22,333
+NJ,Paterson,2023-11-21 23:00:00,Tuesday,23,296
+NJ,Paterson,2023-11-22 00:00:00,Wednesday,0,271
+NJ,Paterson,2023-11-22 01:00:00,Wednesday,1,321
+NJ,Paterson,2023-11-22 02:00:00,Wednesday,2,288
+NJ,Paterson,2023-11-22 03:00:00,Wednesday,3,263
+NJ,Paterson,2023-11-22 04:00:00,Wednesday,4,402
+NJ,Paterson,2023-11-22 05:00:00,Wednesday,5,359
+NJ,Paterson,2023-11-22 06:00:00,Wednesday,6,275
+NJ,Paterson,2023-11-22 07:00:00,Wednesday,7,904
+NJ,Paterson,2023-11-22 08:00:00,Wednesday,8,1114
+NJ,Paterson,2023-11-22 09:00:00,Wednesday,9,875
+NJ,Paterson,2023-11-22 10:00:00,Wednesday,10,540
+NJ,Paterson,2023-11-22 11:00:00,Wednesday,11,634
+NJ,Paterson,2023-11-22 12:00:00,Wednesday,12,756
+NJ,Paterson,2023-11-22 13:00:00,Wednesday,13,620
+NJ,Paterson,2023-11-22 14:00:00,Wednesday,14,734
+NJ,Paterson,2023-11-22 15:00:00,Wednesday,15,798
+NJ,Paterson,2023-11-22 16:00:00,Wednesday,16,854
+NJ,Paterson,2023-11-22 17:00:00,Wednesday,17,1001
+NJ,Paterson,2023-11-22 18:00:00,Wednesday,18,829
+NJ,Paterson,2023-11-22 19:00:00,Wednesday,19,913
+NJ,Paterson,2023-11-22 20:00:00,Wednesday,20,841
+NJ,Paterson,2023-11-22 21:00:00,Wednesday,21,791
+NJ,Paterson,2023-11-22 22:00:00,Wednesday,22,301
+NJ,Paterson,2023-11-22 23:00:00,Wednesday,23,233
+NJ,Paterson,2023-11-23 00:00:00,Thursday,0,339
+NJ,Paterson,2023-11-23 01:00:00,Thursday,1,266
+NJ,Paterson,2023-11-23 02:00:00,Thursday,2,313
+NJ,Paterson,2023-11-23 03:00:00,Thursday,3,344
+NJ,Paterson,2023-11-23 04:00:00,Thursday,4,325
+NJ,Paterson,2023-11-23 05:00:00,Thursday,5,353
+NJ,Paterson,2023-11-23 06:00:00,Thursday,6,433
+NJ,Paterson,2023-11-23 07:00:00,Thursday,7,1106
+NJ,Paterson,2023-11-23 08:00:00,Thursday,8,874
+NJ,Paterson,2023-11-23 09:00:00,Thursday,9,684
+NJ,Paterson,2023-11-23 10:00:00,Thursday,10,701
+NJ,Paterson,2023-11-23 11:00:00,Thursday,11,749
+NJ,Paterson,2023-11-23 12:00:00,Thursday,12,685
+NJ,Paterson,2023-11-23 13:00:00,Thursday,13,663
+NJ,Paterson,2023-11-23 14:00:00,Thursday,14,712
+NJ,Paterson,2023-11-23 15:00:00,Thursday,15,691
+NJ,Paterson,2023-11-23 16:00:00,Thursday,16,1350
+NJ,Paterson,2023-11-23 17:00:00,Thursday,17,1118
+NJ,Paterson,2023-11-23 18:00:00,Thursday,18,689
+NJ,Paterson,2023-11-23 19:00:00,Thursday,19,714
+NJ,Paterson,2023-11-23 20:00:00,Thursday,20,764
+NJ,Paterson,2023-11-23 21:00:00,Thursday,21,872
+NJ,Paterson,2023-11-23 22:00:00,Thursday,22,397
+NJ,Paterson,2023-11-23 23:00:00,Thursday,23,312
+NJ,Paterson,2023-11-24 00:00:00,Friday,0,304
+NJ,Paterson,2023-11-24 01:00:00,Friday,1,246
+NJ,Paterson,2023-11-24 02:00:00,Friday,2,285
+NJ,Paterson,2023-11-24 03:00:00,Friday,3,285
+NJ,Paterson,2023-11-24 04:00:00,Friday,4,226
+NJ,Paterson,2023-11-24 05:00:00,Friday,5,316
+NJ,Paterson,2023-11-24 06:00:00,Friday,6,244
+NJ,Paterson,2023-11-24 07:00:00,Friday,7,1250
+NJ,Paterson,2023-11-24 08:00:00,Friday,8,1049
+NJ,Paterson,2023-11-24 09:00:00,Friday,9,735
+NJ,Paterson,2023-11-24 10:00:00,Friday,10,762
+NJ,Paterson,2023-11-24 11:00:00,Friday,11,710
+NJ,Paterson,2023-11-24 12:00:00,Friday,12,557
+NJ,Paterson,2023-11-24 13:00:00,Friday,13,687
+NJ,Paterson,2023-11-24 14:00:00,Friday,14,693
+NJ,Paterson,2023-11-24 15:00:00,Friday,15,807
+NJ,Paterson,2023-11-24 16:00:00,Friday,16,1188
+NJ,Paterson,2023-11-24 17:00:00,Friday,17,1059
+NJ,Paterson,2023-11-24 18:00:00,Friday,18,882
+NJ,Paterson,2023-11-24 19:00:00,Friday,19,901
+NJ,Paterson,2023-11-24 20:00:00,Friday,20,726
+NJ,Paterson,2023-11-24 21:00:00,Friday,21,850
+NJ,Paterson,2023-11-24 22:00:00,Friday,22,339
+NJ,Paterson,2023-11-24 23:00:00,Friday,23,277
+NJ,Paterson,2023-11-25 00:00:00,Saturday,0,239
+NJ,Paterson,2023-11-25 01:00:00,Saturday,1,152
+NJ,Paterson,2023-11-25 02:00:00,Saturday,2,203
+NJ,Paterson,2023-11-25 03:00:00,Saturday,3,193
+NJ,Paterson,2023-11-25 04:00:00,Saturday,4,246
+NJ,Paterson,2023-11-25 05:00:00,Saturday,5,250
+NJ,Paterson,2023-11-25 06:00:00,Saturday,6,240
+NJ,Paterson,2023-11-25 07:00:00,Saturday,7,811
+NJ,Paterson,2023-11-25 08:00:00,Saturday,8,544
+NJ,Paterson,2023-11-25 09:00:00,Saturday,9,533
+NJ,Paterson,2023-11-25 10:00:00,Saturday,10,464
+NJ,Paterson,2023-11-25 11:00:00,Saturday,11,539
+NJ,Paterson,2023-11-25 12:00:00,Saturday,12,475
+NJ,Paterson,2023-11-25 13:00:00,Saturday,13,503
+NJ,Paterson,2023-11-25 14:00:00,Saturday,14,389
+NJ,Paterson,2023-11-25 15:00:00,Saturday,15,577
+NJ,Paterson,2023-11-25 16:00:00,Saturday,16,881
+NJ,Paterson,2023-11-25 17:00:00,Saturday,17,812
+NJ,Paterson,2023-11-25 18:00:00,Saturday,18,372
+NJ,Paterson,2023-11-25 19:00:00,Saturday,19,586
+NJ,Paterson,2023-11-25 20:00:00,Saturday,20,603
+NJ,Paterson,2023-11-25 21:00:00,Saturday,21,741
+NJ,Paterson,2023-11-25 22:00:00,Saturday,22,181
+NJ,Paterson,2023-11-25 23:00:00,Saturday,23,247
+NJ,Paterson,2023-11-26 00:00:00,Sunday,0,209
+NJ,Paterson,2023-11-26 01:00:00,Sunday,1,239
+NJ,Paterson,2023-11-26 02:00:00,Sunday,2,222
+NJ,Paterson,2023-11-26 03:00:00,Sunday,3,181
+NJ,Paterson,2023-11-26 04:00:00,Sunday,4,165
+NJ,Paterson,2023-11-26 05:00:00,Sunday,5,198
+NJ,Paterson,2023-11-26 06:00:00,Sunday,6,231
+NJ,Paterson,2023-11-26 07:00:00,Sunday,7,777
+NJ,Paterson,2023-11-26 08:00:00,Sunday,8,782
+NJ,Paterson,2023-11-26 09:00:00,Sunday,9,375
+NJ,Paterson,2023-11-26 10:00:00,Sunday,10,417
+NJ,Paterson,2023-11-26 11:00:00,Sunday,11,387
+NJ,Paterson,2023-11-26 12:00:00,Sunday,12,503
+NJ,Paterson,2023-11-26 13:00:00,Sunday,13,466
+NJ,Paterson,2023-11-26 14:00:00,Sunday,14,576
+NJ,Paterson,2023-11-26 15:00:00,Sunday,15,519
+NJ,Paterson,2023-11-26 16:00:00,Sunday,16,754
+NJ,Paterson,2023-11-26 17:00:00,Sunday,17,680
+NJ,Paterson,2023-11-26 18:00:00,Sunday,18,562
+NJ,Paterson,2023-11-26 19:00:00,Sunday,19,700
+NJ,Paterson,2023-11-26 20:00:00,Sunday,20,635
+NJ,Paterson,2023-11-26 21:00:00,Sunday,21,482
+NJ,Paterson,2023-11-26 22:00:00,Sunday,22,170
+NJ,Paterson,2023-11-26 23:00:00,Sunday,23,197
+NJ,Paterson,2023-11-27 00:00:00,Monday,0,390
+NY,New York City,2023-11-20 00:00:00,Monday,0,913
+NY,New York City,2023-11-20 01:00:00,Monday,1,1204
+NY,New York City,2023-11-20 02:00:00,Monday,2,1222
+NY,New York City,2023-11-20 03:00:00,Monday,3,1431
+NY,New York City,2023-11-20 04:00:00,Monday,4,1356
+NY,New York City,2023-11-20 05:00:00,Monday,5,921
+NY,New York City,2023-11-20 06:00:00,Monday,6,1504
+NY,New York City,2023-11-20 07:00:00,Monday,7,5331
+NY,New York City,2023-11-20 08:00:00,Monday,8,4322
+NY,New York City,2023-11-20 09:00:00,Monday,9,3289
+NY,New York City,2023-11-20 10:00:00,Monday,10,3354
+NY,New York City,2023-11-20 11:00:00,Monday,11,2804
+NY,New York City,2023-11-20 12:00:00,Monday,12,3560
+NY,New York City,2023-11-20 13:00:00,Monday,13,2624
+NY,New York City,2023-11-20 14:00:00,Monday,14,3330
+NY,New York City,2023-11-20 15:00:00,Monday,15,3294
+NY,New York City,2023-11-20 16:00:00,Monday,16,5049
+NY,New York City,2023-11-20 17:00:00,Monday,17,3530
+NY,New York City,2023-11-20 18:00:00,Monday,18,2725
+NY,New York City,2023-11-20 19:00:00,Monday,19,2726
+NY,New York City,2023-11-20 20:00:00,Monday,20,3392
+NY,New York City,2023-11-20 21:00:00,Monday,21,3281
+NY,New York City,2023-11-20 22:00:00,Monday,22,1157
+NY,New York City,2023-11-20 23:00:00,Monday,23,963
+NY,New York City,2023-11-21 00:00:00,Tuesday,0,1081
+NY,New York City,2023-11-21 01:00:00,Tuesday,1,1184
+NY,New York City,2023-11-21 02:00:00,Tuesday,2,1135
+NY,New York City,2023-11-21 03:00:00,Tuesday,3,1199
+NY,New York City,2023-11-21 04:00:00,Tuesday,4,1056
+NY,New York City,2023-11-21 05:00:00,Tuesday,5,1427
+NY,New York City,2023-11-21 06:00:00,Tuesday,6,1408
+NY,New York City,2023-11-21 07:00:00,Tuesday,7,4667
+NY,New York City,2023-11-21 08:00:00,Tuesday,8,4819
+NY,New York City,2023-11-21 09:00:00,Tuesday,9,3649
+NY,New York City,2023-11-21 10:00:00,Tuesday,10,4391
+NY,New York City,2023-11-21 11:00:00,Tuesday,11,2790
+NY,New York City,2023-11-21 12:00:00,Tuesday,12,3071
+NY,New York City,2023-11-21 13:00:00,Tuesday,13,2723
+NY,New York City,2023-11-21 14:00:00,Tuesday,14,2774
+NY,New York City,2023-11-21 15:00:00,Tuesday,15,2662
+NY,New York City,2023-11-21 16:00:00,Tuesday,16,4801
+NY,New York City,2023-11-21 17:00:00,Tuesday,17,4764
+NY,New York City,2023-11-21 18:00:00,Tuesday,18,3112
+NY,New York City,2023-11-21 19:00:00,Tuesday,19,2920
+NY,New York City,2023-11-21 20:00:00,Tuesday,20,3605
+NY,New York City,2023-11-21 21:00:00,Tuesday,21,2894
+NY,New York City,2023-11-21 22:00:00,Tuesday,22,983
+NY,New York City,2023-11-21 23:00:00,Tuesday,23,1264
+NY,New York City,2023-11-22 00:00:00,Wednesday,0,1480
+NY,New York City,2023-11-22 01:00:00,Wednesday,1,828
+NY,New York City,2023-11-22 02:00:00,Wednesday,2,1492
+NY,New York City,2023-11-22 03:00:00,Wednesday,3,1180
+NY,New York City,2023-11-22 04:00:00,Wednesday,4,1336
+NY,New York City,2023-11-22 05:00:00,Wednesday,5,1664
+NY,New York City,2023-11-22 06:00:00,Wednesday,6,1431
+NY,New York City,2023-11-22 07:00:00,Wednesday,7,5858
+NY,New York City,2023-11-22 08:00:00,Wednesday,8,5606
+NY,New York City,2023-11-22 09:00:00,Wednesday,9,2503
+NY,New York City,2023-11-22 10:00:00,Wednesday,10,2840
+NY,New York City,2023-11-22 11:00:00,Wednesday,11,3220
+NY,New York City,2023-11-22 12:00:00,Wednesday,12,3003
+NY,New York City,2023-11-22 13:00:00,Wednesday,13,3879
+NY,New York City,2023-11-22 14:00:00,Wednesday,14,3694
+NY,New York City,2023-11-22 15:00:00,Wednesday,15,3012
+NY,New York City,2023-11-22 16:00:00,Wednesday,16,5140
+NY,New York City,2023-11-22 17:00:00,Wednesday,17,4733
+NY,New York City,2023-11-22 18:00:00,Wednesday,18,2742
+NY,New York City,2023-11-22 19:00:00,Wednesday,19,2656
+NY,New York City,2023-11-22 20:00:00,Wednesday,20,2202
+NY,New York City,2023-11-22 21:00:00,Wednesday,21,3768
+NY,New York City,2023-11-22 22:00:00,Wednesday,22,1335
+NY,New York City,2023-11-22 23:00:00,Wednesday,23,1279
+NY,New York City,2023-11-23 00:00:00,Thursday,0,1237
+NY,New York City,2023-11-23 01:00:00,Thursday,1,710
+NY,New York City,2023-11-23 02:00:00,Thursday,2,1232
+NY,New York City,2023-11-23 03:00:00,Thursday,3,1373
+NY,New York City,2023-11-23 04:00:00,Thursday,4,1153
+NY,New York City,2023-11-23 05:00:00,Thursday,5,976
+NY,New York City,2023-11-23 06:00:00,Thursday,6,1172
+NY,New York City,2023-11-23 07:00:00,Thursday,7,5210
+NY,New York City,2023-11-23 08:00:00,Thursday,8,3904
+NY,New York City,2023-11-23 09:00:00,Thursday,9,3064
+NY,New York City,2023-11-23 10:00:00,Thursday,10,3596
+NY,New York City,2023-11-23 11:00:00,Thursday,11,3250
+NY,New York City,2023-11-23 12:00:00,Thursday,12,3071
+NY,New York City,2023-11-23 13:00:00,Thursday,13,2838
+NY,New York City,2023-11-23 14:00:00,Thursday,14,2566
+NY,New York City,2023-11-23 15:00:00,Thursday,15,3218
+NY,New York City,2023-11-23 16:00:00,Thursday,16,5217
+NY,New York City,2023-11-23 17:00:00,Thursday,17,3570
+NY,New York City,2023-11-23 18:00:00,Thursday,18,2981
+NY,New York City,2023-11-23 19:00:00,Thursday,19,2877
+NY,New York City,2023-11-23 20:00:00,Thursday,20,3404
+NY,New York City,2023-11-23 21:00:00,Thursday,21,3488
+NY,New York City,2023-11-23 22:00:00,Thursday,22,1346
+NY,New York City,2023-11-23 23:00:00,Thursday,23,1167
+NY,New York City,2023-11-24 00:00:00,Friday,0,1212
+NY,New York City,2023-11-24 01:00:00,Friday,1,1372
+NY,New York City,2023-11-24 02:00:00,Friday,2,1288
+NY,New York City,2023-11-24 03:00:00,Friday,3,1131
+NY,New York City,2023-11-24 04:00:00,Friday,4,1486
+NY,New York City,2023-11-24 05:00:00,Friday,5,1179
+NY,New York City,2023-11-24 06:00:00,Friday,6,1273
+NY,New York City,2023-11-24 07:00:00,Friday,7,4436
+NY,New York City,2023-11-24 08:00:00,Friday,8,3401
+NY,New York City,2023-11-24 09:00:00,Friday,9,3305
+NY,New York City,2023-11-24 10:00:00,Friday,10,2828
+NY,New York City,2023-11-24 11:00:00,Friday,11,3409
+NY,New York City,2023-11-24 12:00:00,Friday,12,3155
+NY,New York City,2023-11-24 13:00:00,Friday,13,2808
+NY,New York City,2023-11-24 14:00:00,Friday,14,2855
+NY,New York City,2023-11-24 15:00:00,Friday,15,3064
+NY,New York City,2023-11-24 16:00:00,Friday,16,4139
+NY,New York City,2023-11-24 17:00:00,Friday,17,2518
+NY,New York City,2023-11-24 18:00:00,Friday,18,2821
+NY,New York City,2023-11-24 19:00:00,Friday,19,3323
+NY,New York City,2023-11-24 20:00:00,Friday,20,2873
+NY,New York City,2023-11-24 21:00:00,Friday,21,3952
+NY,New York City,2023-11-24 22:00:00,Friday,22,1559
+NY,New York City,2023-11-24 23:00:00,Friday,23,1456
+NY,New York City,2023-11-25 00:00:00,Saturday,0,684
+NY,New York City,2023-11-25 01:00:00,Saturday,1,830
+NY,New York City,2023-11-25 02:00:00,Saturday,2,731
+NY,New York City,2023-11-25 03:00:00,Saturday,3,779
+NY,New York City,2023-11-25 04:00:00,Saturday,4,706
+NY,New York City,2023-11-25 05:00:00,Saturday,5,867
+NY,New York City,2023-11-25 06:00:00,Saturday,6,887
+NY,New York City,2023-11-25 07:00:00,Saturday,7,3295
+NY,New York City,2023-11-25 08:00:00,Saturday,8,2804
+NY,New York City,2023-11-25 09:00:00,Saturday,9,1765
+NY,New York City,2023-11-25 10:00:00,Saturday,10,2085
+NY,New York City,2023-11-25 11:00:00,Saturday,11,2360
+NY,New York City,2023-11-25 12:00:00,Saturday,12,2247
+NY,New York City,2023-11-25 13:00:00,Saturday,13,1906
+NY,New York City,2023-11-25 14:00:00,Saturday,14,2578
+NY,New York City,2023-11-25 15:00:00,Saturday,15,2201
+NY,New York City,2023-11-25 16:00:00,Saturday,16,3547
+NY,New York City,2023-11-25 17:00:00,Saturday,17,3298
+NY,New York City,2023-11-25 18:00:00,Saturday,18,2372
+NY,New York City,2023-11-25 19:00:00,Saturday,19,2372
+NY,New York City,2023-11-25 20:00:00,Saturday,20,2115
+NY,New York City,2023-11-25 21:00:00,Saturday,21,2227
+NY,New York City,2023-11-25 22:00:00,Saturday,22,975
+NY,New York City,2023-11-25 23:00:00,Saturday,23,776
+NY,New York City,2023-11-26 00:00:00,Sunday,0,1019
+NY,New York City,2023-11-26 01:00:00,Sunday,1,882
+NY,New York City,2023-11-26 02:00:00,Sunday,2,867
+NY,New York City,2023-11-26 03:00:00,Sunday,3,858
+NY,New York City,2023-11-26 04:00:00,Sunday,4,890
+NY,New York City,2023-11-26 05:00:00,Sunday,5,515
+NY,New York City,2023-11-26 06:00:00,Sunday,6,1008
+NY,New York City,2023-11-26 07:00:00,Sunday,7,2227
+NY,New York City,2023-11-26 08:00:00,Sunday,8,3053
+NY,New York City,2023-11-26 09:00:00,Sunday,9,1589
+NY,New York City,2023-11-26 10:00:00,Sunday,10,2274
+NY,New York City,2023-11-26 11:00:00,Sunday,11,2228
+NY,New York City,2023-11-26 12:00:00,Sunday,12,1985
+NY,New York City,2023-11-26 13:00:00,Sunday,13,1710
+NY,New York City,2023-11-26 14:00:00,Sunday,14,2391
+NY,New York City,2023-11-26 15:00:00,Sunday,15,2568
+NY,New York City,2023-11-26 16:00:00,Sunday,16,3285
+NY,New York City,2023-11-26 17:00:00,Sunday,17,3586
+NY,New York City,2023-11-26 18:00:00,Sunday,18,2029
+NY,New York City,2023-11-26 19:00:00,Sunday,19,2712
+NY,New York City,2023-11-26 20:00:00,Sunday,20,2020
+NY,New York City,2023-11-26 21:00:00,Sunday,21,2444
+NY,New York City,2023-11-26 22:00:00,Sunday,22,829
+NY,New York City,2023-11-26 23:00:00,Sunday,23,940
+NY,New York City,2023-11-27 00:00:00,Monday,0,1576
+NY,Buffalo,2023-11-20 00:00:00,Monday,0,391
+NY,Buffalo,2023-11-20 01:00:00,Monday,1,505
+NY,Buffalo,2023-11-20 02:00:00,Monday,2,365
+NY,Buffalo,2023-11-20 03:00:00,Monday,3,335
+NY,Buffalo,2023-11-20 04:00:00,Monday,4,448
+NY,Buffalo,2023-11-20 05:00:00,Monday,5,422
+NY,Buffalo,2023-11-20 06:00:00,Monday,6,361
+NY,Buffalo,2023-11-20 07:00:00,Monday,7,1450
+NY,Buffalo,2023-11-20 08:00:00,Monday,8,1209
+NY,Buffalo,2023-11-20 09:00:00,Monday,9,985
+NY,Buffalo,2023-11-20 10:00:00,Monday,10,646
+NY,Buffalo,2023-11-20 11:00:00,Monday,11,783
+NY,Buffalo,2023-11-20 12:00:00,Monday,12,1124
+NY,Buffalo,2023-11-20 13:00:00,Monday,13,809
+NY,Buffalo,2023-11-20 14:00:00,Monday,14,718
+NY,Buffalo,2023-11-20 15:00:00,Monday,15,1044
+NY,Buffalo,2023-11-20 16:00:00,Monday,16,1234
+NY,Buffalo,2023-11-20 17:00:00,Monday,17,1414
+NY,Buffalo,2023-11-20 18:00:00,Monday,18,1036
+NY,Buffalo,2023-11-20 19:00:00,Monday,19,921
+NY,Buffalo,2023-11-20 20:00:00,Monday,20,1103
+NY,Buffalo,2023-11-20 21:00:00,Monday,21,1130
+NY,Buffalo,2023-11-20 22:00:00,Monday,22,278
+NY,Buffalo,2023-11-20 23:00:00,Monday,23,310
+NY,Buffalo,2023-11-21 00:00:00,Tuesday,0,478
+NY,Buffalo,2023-11-21 01:00:00,Tuesday,1,400
+NY,Buffalo,2023-11-21 02:00:00,Tuesday,2,387
+NY,Buffalo,2023-11-21 03:00:00,Tuesday,3,361
+NY,Buffalo,2023-11-21 04:00:00,Tuesday,4,326
+NY,Buffalo,2023-11-21 05:00:00,Tuesday,5,403
+NY,Buffalo,2023-11-21 06:00:00,Tuesday,6,455
+NY,Buffalo,2023-11-21 07:00:00,Tuesday,7,1424
+NY,Buffalo,2023-11-21 08:00:00,Tuesday,8,1601
+NY,Buffalo,2023-11-21 09:00:00,Tuesday,9,1254
+NY,Buffalo,2023-11-21 10:00:00,Tuesday,10,1099
+NY,Buffalo,2023-11-21 11:00:00,Tuesday,11,842
+NY,Buffalo,2023-11-21 12:00:00,Tuesday,12,955
+NY,Buffalo,2023-11-21 13:00:00,Tuesday,13,928
+NY,Buffalo,2023-11-21 14:00:00,Tuesday,14,1134
+NY,Buffalo,2023-11-21 15:00:00,Tuesday,15,1158
+NY,Buffalo,2023-11-21 16:00:00,Tuesday,16,1582
+NY,Buffalo,2023-11-21 17:00:00,Tuesday,17,1248
+NY,Buffalo,2023-11-21 18:00:00,Tuesday,18,1176
+NY,Buffalo,2023-11-21 19:00:00,Tuesday,19,1122
+NY,Buffalo,2023-11-21 20:00:00,Tuesday,20,936
+NY,Buffalo,2023-11-21 21:00:00,Tuesday,21,807
+NY,Buffalo,2023-11-21 22:00:00,Tuesday,22,427
+NY,Buffalo,2023-11-21 23:00:00,Tuesday,23,449
+NY,Buffalo,2023-11-22 00:00:00,Wednesday,0,477
+NY,Buffalo,2023-11-22 01:00:00,Wednesday,1,389
+NY,Buffalo,2023-11-22 02:00:00,Wednesday,2,395
+NY,Buffalo,2023-11-22 03:00:00,Wednesday,3,376
+NY,Buffalo,2023-11-22 04:00:00,Wednesday,4,428
+NY,Buffalo,2023-11-22 05:00:00,Wednesday,5,451
+NY,Buffalo,2023-11-22 06:00:00,Wednesday,6,397
+NY,Buffalo,2023-11-22 07:00:00,Wednesday,7,1243
+NY,Buffalo,2023-11-22 08:00:00,Wednesday,8,1282
+NY,Buffalo,2023-11-22 09:00:00,Wednesday,9,1117
+NY,Buffalo,2023-11-22 10:00:00,Wednesday,10,1071
+NY,Buffalo,2023-11-22 11:00:00,Wednesday,11,1240
+NY,Buffalo,2023-11-22 12:00:00,Wednesday,12,912
+NY,Buffalo,2023-11-22 13:00:00,Wednesday,13,1192
+NY,Buffalo,2023-11-22 14:00:00,Wednesday,14,869
+NY,Buffalo,2023-11-22 15:00:00,Wednesday,15,963
+NY,Buffalo,2023-11-22 16:00:00,Wednesday,16,1163
+NY,Buffalo,2023-11-22 17:00:00,Wednesday,17,1360
+NY,Buffalo,2023-11-22 18:00:00,Wednesday,18,1218
+NY,Buffalo,2023-11-22 19:00:00,Wednesday,19,1104
+NY,Buffalo,2023-11-22 20:00:00,Wednesday,20,1173
+NY,Buffalo,2023-11-22 21:00:00,Wednesday,21,1248
+NY,Buffalo,2023-11-22 22:00:00,Wednesday,22,417
+NY,Buffalo,2023-11-22 23:00:00,Wednesday,23,462
+NY,Buffalo,2023-11-23 00:00:00,Thursday,0,474
+NY,Buffalo,2023-11-23 01:00:00,Thursday,1,458
+NY,Buffalo,2023-11-23 02:00:00,Thursday,2,497
+NY,Buffalo,2023-11-23 03:00:00,Thursday,3,364
+NY,Buffalo,2023-11-23 04:00:00,Thursday,4,419
+NY,Buffalo,2023-11-23 05:00:00,Thursday,5,413
+NY,Buffalo,2023-11-23 06:00:00,Thursday,6,303
+NY,Buffalo,2023-11-23 07:00:00,Thursday,7,1270
+NY,Buffalo,2023-11-23 08:00:00,Thursday,8,1341
+NY,Buffalo,2023-11-23 09:00:00,Thursday,9,910
+NY,Buffalo,2023-11-23 10:00:00,Thursday,10,880
+NY,Buffalo,2023-11-23 11:00:00,Thursday,11,867
+NY,Buffalo,2023-11-23 12:00:00,Thursday,12,986
+NY,Buffalo,2023-11-23 13:00:00,Thursday,13,800
+NY,Buffalo,2023-11-23 14:00:00,Thursday,14,1096
+NY,Buffalo,2023-11-23 15:00:00,Thursday,15,1129
+NY,Buffalo,2023-11-23 16:00:00,Thursday,16,1467
+NY,Buffalo,2023-11-23 17:00:00,Thursday,17,1389
+NY,Buffalo,2023-11-23 18:00:00,Thursday,18,1234
+NY,Buffalo,2023-11-23 19:00:00,Thursday,19,1123
+NY,Buffalo,2023-11-23 20:00:00,Thursday,20,956
+NY,Buffalo,2023-11-23 21:00:00,Thursday,21,1086
+NY,Buffalo,2023-11-23 22:00:00,Thursday,22,426
+NY,Buffalo,2023-11-23 23:00:00,Thursday,23,289
+NY,Buffalo,2023-11-24 00:00:00,Friday,0,484
+NY,Buffalo,2023-11-24 01:00:00,Friday,1,503
+NY,Buffalo,2023-11-24 02:00:00,Friday,2,285
+NY,Buffalo,2023-11-24 03:00:00,Friday,3,483
+NY,Buffalo,2023-11-24 04:00:00,Friday,4,522
+NY,Buffalo,2023-11-24 05:00:00,Friday,5,377
+NY,Buffalo,2023-11-24 06:00:00,Friday,6,413
+NY,Buffalo,2023-11-24 07:00:00,Friday,7,1613
+NY,Buffalo,2023-11-24 08:00:00,Friday,8,1239
+NY,Buffalo,2023-11-24 09:00:00,Friday,9,884
+NY,Buffalo,2023-11-24 10:00:00,Friday,10,817
+NY,Buffalo,2023-11-24 11:00:00,Friday,11,985
+NY,Buffalo,2023-11-24 12:00:00,Friday,12,638
+NY,Buffalo,2023-11-24 13:00:00,Friday,13,908
+NY,Buffalo,2023-11-24 14:00:00,Friday,14,1029
+NY,Buffalo,2023-11-24 15:00:00,Friday,15,834
+NY,Buffalo,2023-11-24 16:00:00,Friday,16,1653
+NY,Buffalo,2023-11-24 17:00:00,Friday,17,1638
+NY,Buffalo,2023-11-24 18:00:00,Friday,18,1072
+NY,Buffalo,2023-11-24 19:00:00,Friday,19,1010
+NY,Buffalo,2023-11-24 20:00:00,Friday,20,1084
+NY,Buffalo,2023-11-24 21:00:00,Friday,21,1081
+NY,Buffalo,2023-11-24 22:00:00,Friday,22,385
+NY,Buffalo,2023-11-24 23:00:00,Friday,23,369
+NY,Buffalo,2023-11-25 00:00:00,Saturday,0,244
+NY,Buffalo,2023-11-25 01:00:00,Saturday,1,361
+NY,Buffalo,2023-11-25 02:00:00,Saturday,2,313
+NY,Buffalo,2023-11-25 03:00:00,Saturday,3,294
+NY,Buffalo,2023-11-25 04:00:00,Saturday,4,279
+NY,Buffalo,2023-11-25 05:00:00,Saturday,5,202
+NY,Buffalo,2023-11-25 06:00:00,Saturday,6,224
+NY,Buffalo,2023-11-25 07:00:00,Saturday,7,1164
+NY,Buffalo,2023-11-25 08:00:00,Saturday,8,811
+NY,Buffalo,2023-11-25 09:00:00,Saturday,9,712
+NY,Buffalo,2023-11-25 10:00:00,Saturday,10,578
+NY,Buffalo,2023-11-25 11:00:00,Saturday,11,634
+NY,Buffalo,2023-11-25 12:00:00,Saturday,12,533
+NY,Buffalo,2023-11-25 13:00:00,Saturday,13,705
+NY,Buffalo,2023-11-25 14:00:00,Saturday,14,745
+NY,Buffalo,2023-11-25 15:00:00,Saturday,15,656
+NY,Buffalo,2023-11-25 16:00:00,Saturday,16,903
+NY,Buffalo,2023-11-25 17:00:00,Saturday,17,1116
+NY,Buffalo,2023-11-25 18:00:00,Saturday,18,776
+NY,Buffalo,2023-11-25 19:00:00,Saturday,19,634
+NY,Buffalo,2023-11-25 20:00:00,Saturday,20,782
+NY,Buffalo,2023-11-25 21:00:00,Saturday,21,812
+NY,Buffalo,2023-11-25 22:00:00,Saturday,22,325
+NY,Buffalo,2023-11-25 23:00:00,Saturday,23,302
+NY,Buffalo,2023-11-26 00:00:00,Sunday,0,293
+NY,Buffalo,2023-11-26 01:00:00,Sunday,1,188
+NY,Buffalo,2023-11-26 02:00:00,Sunday,2,251
+NY,Buffalo,2023-11-26 03:00:00,Sunday,3,314
+NY,Buffalo,2023-11-26 04:00:00,Sunday,4,230
+NY,Buffalo,2023-11-26 05:00:00,Sunday,5,344
+NY,Buffalo,2023-11-26 06:00:00,Sunday,6,258
+NY,Buffalo,2023-11-26 07:00:00,Sunday,7,1077
+NY,Buffalo,2023-11-26 08:00:00,Sunday,8,1036
+NY,Buffalo,2023-11-26 09:00:00,Sunday,9,762
+NY,Buffalo,2023-11-26 10:00:00,Sunday,10,537
+NY,Buffalo,2023-11-26 11:00:00,Sunday,11,739
+NY,Buffalo,2023-11-26 12:00:00,Sunday,12,587
+NY,Buffalo,2023-11-26 13:00:00,Sunday,13,641
+NY,Buffalo,2023-11-26 14:00:00,Sunday,14,791
+NY,Buffalo,2023-11-26 15:00:00,Sunday,15,666
+NY,Buffalo,2023-11-26 16:00:00,Sunday,16,1139
+NY,Buffalo,2023-11-26 17:00:00,Sunday,17,911
+NY,Buffalo,2023-11-26 18:00:00,Sunday,18,786
+NY,Buffalo,2023-11-26 19:00:00,Sunday,19,760
+NY,Buffalo,2023-11-26 20:00:00,Sunday,20,769
+NY,Buffalo,2023-11-26 21:00:00,Sunday,21,615
+NY,Buffalo,2023-11-26 22:00:00,Sunday,22,346
+NY,Buffalo,2023-11-26 23:00:00,Sunday,23,281
+NY,Buffalo,2023-11-27 00:00:00,Monday,0,425
+NY,Rochester,2023-11-20 00:00:00,Monday,0,343
+NY,Rochester,2023-11-20 01:00:00,Monday,1,359
+NY,Rochester,2023-11-20 02:00:00,Monday,2,428
+NY,Rochester,2023-11-20 03:00:00,Monday,3,371
+NY,Rochester,2023-11-20 04:00:00,Monday,4,406
+NY,Rochester,2023-11-20 05:00:00,Monday,5,343
+NY,Rochester,2023-11-20 06:00:00,Monday,6,503
+NY,Rochester,2023-11-20 07:00:00,Monday,7,1301
+NY,Rochester,2023-11-20 08:00:00,Monday,8,1321
+NY,Rochester,2023-11-20 09:00:00,Monday,9,623
+NY,Rochester,2023-11-20 10:00:00,Monday,10,1085
+NY,Rochester,2023-11-20 11:00:00,Monday,11,839
+NY,Rochester,2023-11-20 12:00:00,Monday,12,812
+NY,Rochester,2023-11-20 13:00:00,Monday,13,772
+NY,Rochester,2023-11-20 14:00:00,Monday,14,1014
+NY,Rochester,2023-11-20 15:00:00,Monday,15,897
+NY,Rochester,2023-11-20 16:00:00,Monday,16,1446
+NY,Rochester,2023-11-20 17:00:00,Monday,17,1149
+NY,Rochester,2023-11-20 18:00:00,Monday,18,1129
+NY,Rochester,2023-11-20 19:00:00,Monday,19,971
+NY,Rochester,2023-11-20 20:00:00,Monday,20,913
+NY,Rochester,2023-11-20 21:00:00,Monday,21,880
+NY,Rochester,2023-11-20 22:00:00,Monday,22,309
+NY,Rochester,2023-11-20 23:00:00,Monday,23,415
+NY,Rochester,2023-11-21 00:00:00,Tuesday,0,482
+NY,Rochester,2023-11-21 01:00:00,Tuesday,1,400
+NY,Rochester,2023-11-21 02:00:00,Tuesday,2,363
+NY,Rochester,2023-11-21 03:00:00,Tuesday,3,349
+NY,Rochester,2023-11-21 04:00:00,Tuesday,4,348
+NY,Rochester,2023-11-21 05:00:00,Tuesday,5,316
+NY,Rochester,2023-11-21 06:00:00,Tuesday,6,327
+NY,Rochester,2023-11-21 07:00:00,Tuesday,7,1239
+NY,Rochester,2023-11-21 08:00:00,Tuesday,8,1236
+NY,Rochester,2023-11-21 09:00:00,Tuesday,9,1074
+NY,Rochester,2023-11-21 10:00:00,Tuesday,10,835
+NY,Rochester,2023-11-21 11:00:00,Tuesday,11,938
+NY,Rochester,2023-11-21 12:00:00,Tuesday,12,929
+NY,Rochester,2023-11-21 13:00:00,Tuesday,13,896
+NY,Rochester,2023-11-21 14:00:00,Tuesday,14,911
+NY,Rochester,2023-11-21 15:00:00,Tuesday,15,930
+NY,Rochester,2023-11-21 16:00:00,Tuesday,16,1520
+NY,Rochester,2023-11-21 17:00:00,Tuesday,17,1332
+NY,Rochester,2023-11-21 18:00:00,Tuesday,18,946
+NY,Rochester,2023-11-21 19:00:00,Tuesday,19,1227
+NY,Rochester,2023-11-21 20:00:00,Tuesday,20,1045
+NY,Rochester,2023-11-21 21:00:00,Tuesday,21,1099
+NY,Rochester,2023-11-21 22:00:00,Tuesday,22,261
+NY,Rochester,2023-11-21 23:00:00,Tuesday,23,479
+NY,Rochester,2023-11-22 00:00:00,Wednesday,0,422
+NY,Rochester,2023-11-22 01:00:00,Wednesday,1,346
+NY,Rochester,2023-11-22 02:00:00,Wednesday,2,421
+NY,Rochester,2023-11-22 03:00:00,Wednesday,3,356
+NY,Rochester,2023-11-22 04:00:00,Wednesday,4,448
+NY,Rochester,2023-11-22 05:00:00,Wednesday,5,421
+NY,Rochester,2023-11-22 06:00:00,Wednesday,6,313
+NY,Rochester,2023-11-22 07:00:00,Wednesday,7,1139
+NY,Rochester,2023-11-22 08:00:00,Wednesday,8,1256
+NY,Rochester,2023-11-22 09:00:00,Wednesday,9,671
+NY,Rochester,2023-11-22 10:00:00,Wednesday,10,837
+NY,Rochester,2023-11-22 11:00:00,Wednesday,11,731
+NY,Rochester,2023-11-22 12:00:00,Wednesday,12,906
+NY,Rochester,2023-11-22 13:00:00,Wednesday,13,782
+NY,Rochester,2023-11-22 14:00:00,Wednesday,14,1044
+NY,Rochester,2023-11-22 15:00:00,Wednesday,15,859
+NY,Rochester,2023-11-22 16:00:00,Wednesday,16,1368
+NY,Rochester,2023-11-22 17:00:00,Wednesday,17,989
+NY,Rochester,2023-11-22 18:00:00,Wednesday,18,1065
+NY,Rochester,2023-11-22 19:00:00,Wednesday,19,798
+NY,Rochester,2023-11-22 20:00:00,Wednesday,20,1237
+NY,Rochester,2023-11-22 21:00:00,Wednesday,21,1009
+NY,Rochester,2023-11-22 22:00:00,Wednesday,22,340
+NY,Rochester,2023-11-22 23:00:00,Wednesday,23,404
+NY,Rochester,2023-11-23 00:00:00,Thursday,0,406
+NY,Rochester,2023-11-23 01:00:00,Thursday,1,424
+NY,Rochester,2023-11-23 02:00:00,Thursday,2,347
+NY,Rochester,2023-11-23 03:00:00,Thursday,3,383
+NY,Rochester,2023-11-23 04:00:00,Thursday,4,362
+NY,Rochester,2023-11-23 05:00:00,Thursday,5,443
+NY,Rochester,2023-11-23 06:00:00,Thursday,6,518
+NY,Rochester,2023-11-23 07:00:00,Thursday,7,1129
+NY,Rochester,2023-11-23 08:00:00,Thursday,8,1428
+NY,Rochester,2023-11-23 09:00:00,Thursday,9,806
+NY,Rochester,2023-11-23 10:00:00,Thursday,10,1000
+NY,Rochester,2023-11-23 11:00:00,Thursday,11,862
+NY,Rochester,2023-11-23 12:00:00,Thursday,12,899
+NY,Rochester,2023-11-23 13:00:00,Thursday,13,897
+NY,Rochester,2023-11-23 14:00:00,Thursday,14,853
+NY,Rochester,2023-11-23 15:00:00,Thursday,15,1049
+NY,Rochester,2023-11-23 16:00:00,Thursday,16,1374
+NY,Rochester,2023-11-23 17:00:00,Thursday,17,1000
+NY,Rochester,2023-11-23 18:00:00,Thursday,18,984
+NY,Rochester,2023-11-23 19:00:00,Thursday,19,1297
+NY,Rochester,2023-11-23 20:00:00,Thursday,20,1022
+NY,Rochester,2023-11-23 21:00:00,Thursday,21,999
+NY,Rochester,2023-11-23 22:00:00,Thursday,22,375
+NY,Rochester,2023-11-23 23:00:00,Thursday,23,404
+NY,Rochester,2023-11-24 00:00:00,Friday,0,395
+NY,Rochester,2023-11-24 01:00:00,Friday,1,356
+NY,Rochester,2023-11-24 02:00:00,Friday,2,397
+NY,Rochester,2023-11-24 03:00:00,Friday,3,421
+NY,Rochester,2023-11-24 04:00:00,Friday,4,424
+NY,Rochester,2023-11-24 05:00:00,Friday,5,358
+NY,Rochester,2023-11-24 06:00:00,Friday,6,330
+NY,Rochester,2023-11-24 07:00:00,Friday,7,1345
+NY,Rochester,2023-11-24 08:00:00,Friday,8,1320
+NY,Rochester,2023-11-24 09:00:00,Friday,9,863
+NY,Rochester,2023-11-24 10:00:00,Friday,10,1148
+NY,Rochester,2023-11-24 11:00:00,Friday,11,736
+NY,Rochester,2023-11-24 12:00:00,Friday,12,672
+NY,Rochester,2023-11-24 13:00:00,Friday,13,894
+NY,Rochester,2023-11-24 14:00:00,Friday,14,763
+NY,Rochester,2023-11-24 15:00:00,Friday,15,938
+NY,Rochester,2023-11-24 16:00:00,Friday,16,1828
+NY,Rochester,2023-11-24 17:00:00,Friday,17,1303
+NY,Rochester,2023-11-24 18:00:00,Friday,18,1027
+NY,Rochester,2023-11-24 19:00:00,Friday,19,939
+NY,Rochester,2023-11-24 20:00:00,Friday,20,1200
+NY,Rochester,2023-11-24 21:00:00,Friday,21,1003
+NY,Rochester,2023-11-24 22:00:00,Friday,22,379
+NY,Rochester,2023-11-24 23:00:00,Friday,23,458
+NY,Rochester,2023-11-25 00:00:00,Saturday,0,253
+NY,Rochester,2023-11-25 01:00:00,Saturday,1,234
+NY,Rochester,2023-11-25 02:00:00,Saturday,2,190
+NY,Rochester,2023-11-25 03:00:00,Saturday,3,312
+NY,Rochester,2023-11-25 04:00:00,Saturday,4,283
+NY,Rochester,2023-11-25 05:00:00,Saturday,5,291
+NY,Rochester,2023-11-25 06:00:00,Saturday,6,309
+NY,Rochester,2023-11-25 07:00:00,Saturday,7,1128
+NY,Rochester,2023-11-25 08:00:00,Saturday,8,804
+NY,Rochester,2023-11-25 09:00:00,Saturday,9,462
+NY,Rochester,2023-11-25 10:00:00,Saturday,10,691
+NY,Rochester,2023-11-25 11:00:00,Saturday,11,779
+NY,Rochester,2023-11-25 12:00:00,Saturday,12,480
+NY,Rochester,2023-11-25 13:00:00,Saturday,13,626
+NY,Rochester,2023-11-25 14:00:00,Saturday,14,645
+NY,Rochester,2023-11-25 15:00:00,Saturday,15,574
+NY,Rochester,2023-11-25 16:00:00,Saturday,16,936
+NY,Rochester,2023-11-25 17:00:00,Saturday,17,1065
+NY,Rochester,2023-11-25 18:00:00,Saturday,18,724
+NY,Rochester,2023-11-25 19:00:00,Saturday,19,844
+NY,Rochester,2023-11-25 20:00:00,Saturday,20,645
+NY,Rochester,2023-11-25 21:00:00,Saturday,21,769
+NY,Rochester,2023-11-25 22:00:00,Saturday,22,277
+NY,Rochester,2023-11-25 23:00:00,Saturday,23,232
+NY,Rochester,2023-11-26 00:00:00,Sunday,0,216
+NY,Rochester,2023-11-26 01:00:00,Sunday,1,269
+NY,Rochester,2023-11-26 02:00:00,Sunday,2,256
+NY,Rochester,2023-11-26 03:00:00,Sunday,3,323
+NY,Rochester,2023-11-26 04:00:00,Sunday,4,228
+NY,Rochester,2023-11-26 05:00:00,Sunday,5,285
+NY,Rochester,2023-11-26 06:00:00,Sunday,6,284
+NY,Rochester,2023-11-26 07:00:00,Sunday,7,885
+NY,Rochester,2023-11-26 08:00:00,Sunday,8,1018
+NY,Rochester,2023-11-26 09:00:00,Sunday,9,670
+NY,Rochester,2023-11-26 10:00:00,Sunday,10,878
+NY,Rochester,2023-11-26 11:00:00,Sunday,11,717
+NY,Rochester,2023-11-26 12:00:00,Sunday,12,766
+NY,Rochester,2023-11-26 13:00:00,Sunday,13,706
+NY,Rochester,2023-11-26 14:00:00,Sunday,14,739
+NY,Rochester,2023-11-26 15:00:00,Sunday,15,723
+NY,Rochester,2023-11-26 16:00:00,Sunday,16,1036
+NY,Rochester,2023-11-26 17:00:00,Sunday,17,948
+NY,Rochester,2023-11-26 18:00:00,Sunday,18,647
+NY,Rochester,2023-11-26 19:00:00,Sunday,19,727
+NY,Rochester,2023-11-26 20:00:00,Sunday,20,727
+NY,Rochester,2023-11-26 21:00:00,Sunday,21,686
+NY,Rochester,2023-11-26 22:00:00,Sunday,22,261
+NY,Rochester,2023-11-26 23:00:00,Sunday,23,298
+NY,Rochester,2023-11-27 00:00:00,Monday,0,368
