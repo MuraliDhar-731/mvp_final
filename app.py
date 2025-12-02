@@ -3,12 +3,14 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 from sklearn.ensemble import RandomForestRegressor
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
 
-st.set_page_config(page_title="Simulated Traffic Dashboard", layout="wide")
+st.set_page_config(page_title="Advanced Traffic Dashboard", layout="wide")
 
-# ===============================
-# Load Data
-# ===============================
+# ===============================================================
+# LOAD DATA + UPLOAD SUPPORT
+# ===============================================================
 
 @st.cache_data
 def load_data():
@@ -16,189 +18,204 @@ def load_data():
     df["Timestamp"] = pd.to_datetime(df["Timestamp"])
     return df
 
-df = load_data()
+# Drag & Drop Uploader
+uploaded_file = st.sidebar.file_uploader("Upload CSV (optional)", type=["csv"])
 
-# ===============================
-# Sidebar Filters
-# ===============================
-
-st.sidebar.header("Filter Options")
-
-# Date range filter
-min_date = df["Timestamp"].min().date()
-max_date = df["Timestamp"].max().date()
-
-date_range = st.sidebar.date_input("Date Range", [min_date, max_date])
-
-start_date, end_date = date_range
-df = df[(df["Timestamp"].dt.date >= start_date) & (df["Timestamp"].dt.date <= end_date)]
-
-# State filter
-selected_state = st.sidebar.selectbox(
-    "Select State",
-    sorted(df["State"].unique())
-)
-
-# Filter cities in state
-cities_in_state = df[df["State"] == selected_state]["City"].unique()
-
-# City filter
-selected_city = st.sidebar.selectbox(
-    "Select City",
-    ["All Cities"] + list(cities_in_state)
-)
-
-if selected_city == "All Cities":
-    filtered_df = df[df["State"] == selected_state]
+if uploaded_file:
+    df = pd.read_csv(uploaded_file)
+    df["Timestamp"] = pd.to_datetime(df["Timestamp"])
 else:
-    filtered_df = df[(df["State"] == selected_state) & (df["City"] == selected_city)]
+    df = load_data()
 
-# ===============================
-# State-Level Summary Cards
-# ===============================
+# ===============================================================
+# TAB LAYOUT
+# ===============================================================
 
-st.header(f"🚦 Traffic Dashboard – {selected_state}")
+tab1, tab2, tab3, tab4 = st.tabs([
+    "📊 Dashboard",
+    "🗺 Maps",
+    "🤖 ML Predictions",
+    "📁 Upload Data"
+])
 
-col1, col2, col3, col4 = st.columns(4)
+# ===============================================================
+# COMMON FILTERS USED IN MULTIPLE TABS
+# ===============================================================
 
-avg_traffic = filtered_df["VehicleCount"].mean()
-peak_hour = filtered_df.groupby("HourOfDay")["VehicleCount"].mean().idxmax()
-max_traffic = filtered_df["VehicleCount"].max()
-total_records = len(filtered_df)
+states = sorted(df["State"].unique())
 
-col1.metric("Avg Traffic", f"{avg_traffic:.1f}")
-col2.metric("Peak Hour", f"{peak_hour}:00")
-col3.metric("Max Vehicle Count", max_traffic)
-col4.metric("Records Shown", total_records)
+selected_state = st.sidebar.selectbox("Select State", states)
 
-# ===============================
-# Traffic Over Time Line Chart
-# ===============================
+cities = sorted(df[df["State"] == selected_state]["City"].unique())
+selected_city = st.sidebar.selectbox("Select City", ["All Cities"] + cities)
 
-st.subheader("📈 Traffic Over Time")
+df_filtered = df[df["State"] == selected_state]
+if selected_city != "All Cities":
+    df_filtered = df_filtered[df_filtered["City"] == selected_city]
 
-fig1 = px.line(
-    filtered_df,
-    x='Timestamp',
-    y='VehicleCount',
-    color='City',
-    title=f"Traffic Over Time – {selected_state} ({selected_city})"
-)
+# ===============================================================
+# TAB 1 – DASHBOARD
+# ===============================================================
 
-st.plotly_chart(fig1, use_container_width=True)
+with tab1:
 
-# ===============================
-# Hourly Heatmap
-# ===============================
+    st.header(f"📊 Traffic Dashboard – {selected_state}")
 
-st.subheader("🔥 Peak Hour Heatmap")
+    # KPI CARDS
+    avg_traffic = df_filtered["VehicleCount"].mean()
+    peak_hour = df_filtered.groupby("HourOfDay")["VehicleCount"].mean().idxmax()
+    max_traffic = df_filtered["VehicleCount"].max()
 
-heatmap_data = filtered_df.groupby(["DayOfWeek", "HourOfDay"])["VehicleCount"].mean().reset_index()
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Avg Traffic", f"{avg_traffic:.1f}")
+    col2.metric("Peak Hour", f"{peak_hour}:00")
+    col3.metric("Max Vehicle Count", max_traffic)
 
-fig_heat = px.density_heatmap(
-    heatmap_data,
-    x="HourOfDay",
-    y="DayOfWeek",
-    z="VehicleCount",
-    color_continuous_scale="Inferno",
-    title="Heatmap of Traffic Volume by Day & Hour"
-)
+    # Line Graph
+    st.subheader("📈 Traffic Over Time")
+    fig1 = px.line(
+        df_filtered,
+        x="Timestamp",
+        y="VehicleCount",
+        color="City",
+        title=f"Traffic Over Time – {selected_state} ({selected_city})"
+    )
+    st.plotly_chart(fig1, use_container_width=True)
 
-st.plotly_chart(fig_heat, use_container_width=True)
+    # Heatmap
+    st.subheader("🔥 Peak Hour Heatmap")
+    heatmap_data = df_filtered.groupby(["DayOfWeek", "HourOfDay"])["VehicleCount"].mean().reset_index()
 
-# ===============================
-# Compare Two Cities
-# ===============================
+    fig_heat = px.density_heatmap(
+        heatmap_data, x="HourOfDay", y="DayOfWeek", z="VehicleCount",
+        color_continuous_scale="Inferno"
+    )
+    st.plotly_chart(fig_heat, use_container_width=True)
 
-st.subheader("🏙 Compare Two Cities")
+# ===============================================================
+# TAB 2 – MAPS
+# ===============================================================
 
-city_list = list(cities_in_state)
-city1 = st.selectbox("City 1", city_list, index=0)
-city2 = st.selectbox("City 2", city_list, index=1)
+with tab2:
 
-df_compare = df[(df["City"].isin([city1, city2]))]
+    st.header("🗺 Interactive Maps")
 
-fig_compare = px.line(
-    df_compare,
-    x="Timestamp",
-    y="VehicleCount",
-    color="City",
-    title=f"Traffic Comparison: {city1} vs {city2}"
-)
+    # NYC-centric map
+    st.subheader("🗽 Full NYC Zoom Map")
+    
+    city_coords = {
+        "New York City": (40.7128, -74.0060),
+        "Buffalo": (42.8864, -78.8784),
+        "Rochester": (43.1566, -77.6088),
+        "Newark": (40.7357, -74.1724),
+        "Jersey City": (40.7178, -74.0431),
+        "Paterson": (40.9168, -74.1718),
+    }
 
-st.plotly_chart(fig_compare, use_container_width=True)
+    df_map = df.drop_duplicates("City").copy()
+    df_map["Lat"] = df_map["City"].map(lambda x: city_coords.get(x, (0, 0))[0])
+    df_map["Lon"] = df_map["City"].map(lambda x: city_coords.get(x, (0, 0))[1])
 
-# ===============================
-# Interactive Map (City Points)
-# ===============================
+    fig_map = px.scatter_mapbox(
+        df_map,
+        lat="Lat",
+        lon="Lon",
+        color="VehicleCount",
+        size="VehicleCount",
+        hover_name="City",
+        color_continuous_scale="Turbo",
+        zoom=6
+    )
+    fig_map.update_layout(mapbox_style="open-street-map")
+    st.plotly_chart(fig_map, use_container_width=True)
 
-st.subheader("🗺 Interactive Map")
+    # Animated Map
+    st.subheader("🎞 Animated Traffic Map (Time-Lapse)")
 
-city_coords = {
-    "Hartford": (41.7658, -72.6734),
-    "New Haven": (41.3083, -72.9279),
-    "Stamford": (41.0534, -73.5387),
-    "Boston": (42.3601, -71.0589),
-    "Worcester": (42.2626, -71.8023),
-    "Springfield": (42.1015, -72.5898),
-    "Newark": (40.7357, -74.1724),
-    "Jersey City": (40.7178, -74.0431),
-    "Paterson": (40.9168, -74.1718),
-    "New York City": (40.7128, -74.0060),
-    "Buffalo": (42.8864, -78.8784),
-    "Rochester": (43.1566, -77.6088),
-}
+    fig_anim = px.scatter_mapbox(
+        df,
+        lat="Lat",
+        lon="Lon",
+        color="VehicleCount",
+        size="VehicleCount",
+        hover_name="City",
+        color_continuous_scale="Inferno",
+        animation_frame="HourOfDay",
+        zoom=4,
+        height=650
+    )
+    fig_anim.update_layout(mapbox_style="open-street-map")
+    st.plotly_chart(fig_anim, use_container_width=True)
 
-df["Lat"] = df["City"].map(lambda c: city_coords[c][0])
-df["Lon"] = df["City"].map(lambda c: city_coords[c][1])
+# ===============================================================
+# TAB 3 – ML PREDICTIONS
+# ===============================================================
 
-fig_map = px.scatter_mapbox(
-    df.drop_duplicates("City"),
-    lat="Lat",
-    lon="Lon",
-    hover_name="City",
-    zoom=5,
-    height=500
-)
+with tab3:
 
-fig_map.update_layout(mapbox_style="open-street-map")
+    st.header("🤖 Machine Learning Models")
 
-st.plotly_chart(fig_map, use_container_width=True)
+    # RandomForest Model
+    st.subheader("🌲 RandomForest Prediction")
 
-# ===============================
-# Export Filtered Data
-# ===============================
+    ml_df = df[["HourOfDay", "DayOfWeek", "VehicleCount"]].copy()
+    ml_df["DayOfWeek"] = ml_df["DayOfWeek"].astype("category").cat.codes
 
-st.subheader("⬇ Export Filtered Results")
+    X = ml_df[["HourOfDay", "DayOfWeek"]]
+    y = ml_df["VehicleCount"]
 
-st.download_button(
-    label="Download Filtered CSV",
-    data=filtered_df.to_csv(index=False),
-    file_name="filtered_traffic_data.csv",
-    mime="text/csv"
-)
+    rf = RandomForestRegressor()
+    rf.fit(X, y)
 
-# ===============================
-# Simple ML Prediction
-# ===============================
+    hour = st.slider("Hour of Day", 0, 23)
+    day = st.selectbox("Day of Week", sorted(df["DayOfWeek"].unique()))
+    day_num = pd.Categorical([day], categories=sorted(df["DayOfWeek"].unique())).codes[0]
 
-st.subheader("🤖 Predict Traffic Volume (Simple ML Model)")
+    rf_pred = rf.predict([[hour, day_num]])[0]
+    st.success(f"RandomForest Prediction: {int(rf_pred)} vehicles")
 
-# Prepare ML dataset
-ml_df = df[["HourOfDay", "DayOfWeek", "VehicleCount"]].copy()
-ml_df["DayOfWeek"] = ml_df["DayOfWeek"].astype("category").cat.codes
+    # LSTM Model
+    st.subheader("📈 LSTM Forecast")
 
-X = ml_df[["HourOfDay", "DayOfWeek"]]
-y = ml_df["VehicleCount"]
+    # Prepare sequence data
+    seq_df = df_filtered.sort_values("Timestamp")
+    series = seq_df["VehicleCount"].values.astype(float)
 
-model = RandomForestRegressor()
-model.fit(X, y)
+    window = 24
+    X_lstm, y_lstm = [], []
 
-# User Input
-pred_hour = st.slider("Select Hour of Day", 0, 23, 8)
-pred_day = st.selectbox("Select Day", sorted(df["DayOfWeek"].unique()))
-pred_day_num = pd.Categorical([pred_day], categories=sorted(df["DayOfWeek"].unique())).codes[0]
+    for i in range(len(series) - window):
+        X_lstm.append(series[i:i+window])
+        y_lstm.append(series[i+window])
 
-prediction = model.predict([[pred_hour, pred_day_num]])[0]
+    X_lstm = np.array(X_lstm).reshape(-1, window, 1)
+    y_lstm = np.array(y_lstm)
 
-st.success(f"Predicted Vehicle Count: **{int(prediction)}**")
+    # Build LSTM model
+    model = Sequential([
+        LSTM(32, return_sequences=False, input_shape=(window, 1)),
+        Dense(1)
+    ])
+    model.compile(optimizer='adam', loss='mse')
+
+    model.fit(X_lstm, y_lstm, epochs=4, batch_size=16, verbose=0)
+
+    # Predict next hour
+    last_seq = series[-window:].reshape(1, window, 1)
+    lstm_pred = model.predict(last_seq)[0][0]
+
+    st.info(f"LSTM Forecast for Next Hour: **{int(lstm_pred)} vehicles**")
+
+# ===============================================================
+# TAB 4 – UPLOAD NEW DATA
+# ===============================================================
+
+with tab4:
+    st.header("📁 Upload Custom Traffic Data")
+    st.write("Upload a CSV to override the dataset used in all dashboards.")
+    st.write("Columns required: **State, City, Timestamp, HourOfDay, DayOfWeek, VehicleCount**")
+    
+    if uploaded_file:
+        st.success("Custom dataset loaded successfully!")
+    else:
+        st.warning("Using default dataset.")
