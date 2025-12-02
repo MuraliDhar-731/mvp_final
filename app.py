@@ -84,13 +84,6 @@ hero_html = f"""
     margin-top: 10px;
 "></p>
 
-<style>
-@keyframes fadeIn {{
-    from {{ opacity: 0; transform: translateY(-10px); }}
-    to {{ opacity: 1; transform: translateY(0px); }}
-}}
-</style>
-
 <script>
 let text = "A Smarter Way to See Traffic.";
 let index = 0;
@@ -109,7 +102,7 @@ type();
 
 st.markdown(hero_html, unsafe_allow_html=True)
 
-# Logo below hero banner
+# Logo
 st.markdown("""
 <div style='text-align:center; margin-bottom:20px;'>
     <img src='https://img.icons8.com/external-flatarticons-blue-flatarticons/512/external-traffic-smart-city-flatarticons-blue-flatarticons.png'
@@ -375,31 +368,54 @@ with tab4:
 
 
 # =========================================================
-# FOOTER — MID LABS CREDITS
+# PREMIUM FOOTER — MID LABS
 # =========================================================
 
 footer_html = """
-<div style='margin-top:40px; padding:15px; text-align:center;'>
+<div style='margin-top:60px; padding:40px 20px; text-align:center;
+            background: linear-gradient(135deg, #FF4B4B, #1E1E1E);
+            color:white; border-radius:16px;'>
 
-    <hr style='border: 1px solid #ddd; margin-bottom: 10px;'>
+    <h2 style='font-weight:900; letter-spacing:1.2px; margin-bottom:25px;'>
+        🚀 MID LABS – LEADERSHIP TEAM
+    </h2>
 
-    <h3 style='color:#FF4B4B; font-weight:700; margin-bottom:10px;'>
-        🚀 MID LABS – Leadership Team
-    </h3>
+    <div style='display:flex; justify-content:center; gap:40px; flex-wrap:wrap;'>
 
-    <p style='font-size:18px; margin:5px; color:#333;'>
-        <strong>Muralidhar</strong> — CEO & Founder
+        <div style='text-align:center;'>
+            <img src='https://img.icons8.com/ios-filled/256/user-male-circle.png'
+                 style='width:100px; height:100px; border-radius:50%; border:3px solid #FFD700;'>
+            <p style='font-size:20px; font-weight:800;'>Muralidhar</p>
+            <p style='opacity:0.85;'>CEO & Founder</p>
+        </div>
+
+        <div style='text-align:center;'>
+            <img src='https://img.icons8.com/ios-filled/256/user-female-circle.png'
+                 style='width:100px; height:100px; border-radius:50%; border:3px solid #FFD700;'>
+            <p style='font-size:20px; font-weight:800;'>Ishika</p>
+            <p style='opacity:0.85;'>Chief Marketing Officer (CMO)</p>
+        </div>
+
+        <div style='text-align:center;'>
+            <img src='https://img.icons8.com/ios-filled/256/user.png'
+                 style='width:100px; height:100px; border-radius:50%; border:3px solid #FFD700;'>
+            <p style='font-size:20px; font-weight:800;'>Devakinandan</p>
+            <p style='opacity:0.85;'>Chief Innovation Officer (CIO)</p>
+        </div>
+
+    </div>
+
+    <div style='margin:25px 0;'>
+        <a href='#' style='margin:0 12px;'><img src='https://img.icons8.com/ios-filled/50/linkedin.png' width='30'></a>
+        <a href='#' style='margin:0 12px;'><img src='https://img.icons8.com/ios-filled/50/instagram-new.png' width='30'></a>
+        <a href='#' style='margin:0 12px;'><img src='https://img.icons8.com/ios-filled/50/domain.png' width='30'></a>
+    </div>
+
+    <p style='font-size:15px; opacity:0.85;'>
+        Made with ❤️ by <strong>MID LABS</strong>
     </p>
 
-    <p style='font-size:18px; margin:5px; color:#333;'>
-        <strong>Ishika</strong> — Chief Marketing Officer (CMO)
-    </p>
-
-    <p style='font-size:18px; margin:5px; color:#333;'>
-        <strong>Devakinandan</strong> — Chief Innovation Officer (CIO)
-    </p>
-
-    <p style='font-size:14px; margin-top:15px; color:#666;'>
+    <p style='font-size:13px; opacity:0.75;'>
         © 2025 MID LABS. All rights reserved.
     </p>
 
