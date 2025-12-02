@@ -6,31 +6,29 @@ from sklearn.ensemble import RandomForestRegressor
 import torch
 import torch.nn as nn
 
-# =========================================================
-# PAGE CONFIG + CUSTOM THEME
-# =========================================================
 st.set_page_config(page_title="Traffic Lens AI", page_icon="🚦", layout="wide")
 
+# Theme Colors
 PRIMARY = "#FF4B4B"
 SECONDARY = "#1E1E1E"
 ACCENT = "#FFD700"
 BG_COLOR = "#F5F5F5"
 TEXT_COLOR = "#222222"
 
-# Smooth fade animation
+# Fade animation
 st.markdown("""
 <style>
 @keyframes fadeSmooth {
     from { opacity:0; transform:translateY(10px); }
     to { opacity:1; transform:translateY(0px); }
 }
-div { animation: fadeSmooth 0.8s ease-in-out; }
+div { animation: fadeSmooth 0.3s ease-in-out; }
 body { background-color: #F5F5F5; }
 </style>
 """, unsafe_allow_html=True)
 
 # =========================================================
-# DATA LOADING + UPLOAD
+# LOAD DATA
 # =========================================================
 @st.cache_data
 def load_default():
@@ -47,54 +45,9 @@ else:
     df = load_default()
 
 # =========================================================
-# HERO HEADER
-# =========================================================
-hero_html = f"""
-<div style="
-    padding: 25px;
-    background-color: {PRIMARY};
-    border-radius: 14px;
-    margin-bottom: 30px;
-    text-align: center;
-">
-
-<h1 style="font-size: 55px; color: white; font-weight: 900; margin-bottom: 5px;">
-🚦 Traffic Lens AI
-</h1>
-
-<h3 style="color:white; font-weight:600; opacity:0.9; margin-top:-5px;">
-🔧 Powered by MID LABS
-</h3>
-
-<p id="typing" style="font-size: 22px; color: white; font-weight: 500;"></p>
-
-<script>
-let text = "A Smarter Way to See Traffic.";
-let index = 0;
-function type() {{
-    if (index < text.length) {{
-        document.getElementById("typing").innerHTML += text.charAt(index);
-        index++;
-        setTimeout(type, 55);
-    }}
-}}
-type();
-</script>
-
-</div>
-"""
-st.markdown(hero_html, unsafe_allow_html=True)
-
-st.markdown("""
-<div style='text-align:center; margin-bottom:20px;'>
-    <img src='https://img.icons8.com/external-flatarticons-blue-flatarticons/512/external-traffic-smart-city-flatarticons-blue-flatarticons.png'
-         width='120'>
-</div>
-""", unsafe_allow_html=True)
-
-# =========================================================
 # FILTERS
 # =========================================================
+
 st.sidebar.subheader("Filters")
 
 min_date = df["Timestamp"].min().date()
@@ -117,6 +70,7 @@ if selected_city != "All Cities":
 # =========================================================
 # TABS
 # =========================================================
+
 tab1, tab2, tab3, tab4 = st.tabs([
     "📊 Dashboard",
     "🗺 Maps",
@@ -125,7 +79,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
 ])
 
 # =========================================================
-# TAB 1 — DASHBOARD
+# TAB 1 – DASHBOARD
 # =========================================================
 with tab1:
 
@@ -135,7 +89,7 @@ with tab1:
     peak_hour = df_filtered.groupby("HourOfDay")["VehicleCount"].mean().idxmax()
     max_traffic = df_filtered["VehicleCount"].max()
 
-    # KPI CARDS
+    # KPI Cards
     kpi_html = f"""
     <div style="display:flex; gap:20px; justify-content:center; margin-bottom:25px">
 
@@ -162,23 +116,33 @@ with tab1:
     st.markdown(kpi_html, unsafe_allow_html=True)
 
     st.subheader("📈 Traffic Over Time")
-    st.plotly_chart(px.line(df_filtered, x="Timestamp", y="VehicleCount", color="City"),
-                    use_container_width=True)
+    st.plotly_chart(
+        px.line(df_filtered, x="Timestamp", y="VehicleCount", color="City"),
+        use_container_width=True
+    )
 
-    st.subheader("🔥 Heatmap")
-    heatmap_df = df_filtered.groupby(["DayOfWeek","HourOfDay"])["VehicleCount"].mean().reset_index()
-    st.plotly_chart(px.density_heatmap(
-        heatmap_df, x="HourOfDay", y="DayOfWeek", z="VehicleCount",
-        color_continuous_scale="Inferno"),
+    st.subheader("🔥 Traffic Heatmap")
+    heatmap_df = df_filtered.groupby(
+        ["DayOfWeek", "HourOfDay"]
+    )["VehicleCount"].mean().reset_index()
+
+    st.plotly_chart(
+        px.density_heatmap(
+            heatmap_df, x="HourOfDay", y="DayOfWeek",
+            z="VehicleCount", color_continuous_scale="Inferno"
+        ),
         use_container_width=True
     )
 
     st.subheader("🏙 Compare Two Cities")
     c1 = st.selectbox("City 1", cities)
     c2 = st.selectbox("City 2", cities, index=1)
-    comp = df[df["City"].isin([c1, c2])]
-    st.plotly_chart(px.line(comp, x="Timestamp", y="VehicleCount", color="City"),
-                    use_container_width=True)
+
+    compare_df = df[df["City"].isin([c1, c2])]
+    st.plotly_chart(
+        px.line(compare_df, x="Timestamp", y="VehicleCount", color="City"),
+        use_container_width=True
+    )
 
 # =========================================================
 # TAB 2 — MAPS
@@ -200,7 +164,7 @@ with tab2:
     df_map["Lat"] = df_map["City"].map(lambda c: city_coords[c][0])
     df_map["Lon"] = df_map["City"].map(lambda c: city_coords[c][1])
 
-    st.subheader("🗽 NYC Zoom Map")
+    st.subheader("🗽 NYC Traffic Map")
     st.plotly_chart(
         px.scatter_mapbox(df_map, lat="Lat", lon="Lon", size="VehicleCount",
                           color="VehicleCount", zoom=6,
@@ -211,8 +175,7 @@ with tab2:
 
     st.subheader("🎞 Animated Traffic Map")
     st.plotly_chart(
-        px.scatter_mapbox(df_map, lat="Lat", lon="Lon",
-                          animation_frame="HourOfDay",
+        px.scatter_mapbox(df_map, lat="Lat", lon="Lon", animation_frame="HourOfDay",
                           size="VehicleCount", color="VehicleCount",
                           zoom=4, color_continuous_scale="Inferno")
         .update_layout(mapbox_style="open-street-map"),
@@ -226,13 +189,13 @@ with tab3:
 
     st.header("🤖 ML Predictions")
 
-    # RandomForest
+    # RandomForest Model
     st.subheader("🌲 RandomForest Prediction")
 
-    ml = df[["HourOfDay","DayOfWeek","VehicleCount"]].copy()
+    ml = df[["HourOfDay", "DayOfWeek", "VehicleCount"]].copy()
     ml["DayOfWeek"] = ml["DayOfWeek"].astype("category").cat.codes
 
-    X = ml[["HourOfDay","DayOfWeek"]]
+    X = ml[["HourOfDay", "DayOfWeek"]]
     y = ml["VehicleCount"]
 
     rf = RandomForestRegressor()
@@ -242,10 +205,9 @@ with tab3:
     dy = st.selectbox("Day", sorted(df["DayOfWeek"].unique()))
     dy_num = pd.Categorical([dy], categories=sorted(df["DayOfWeek"].unique())).codes[0]
 
-    st.success(f"RandomForest Prediction: {int(rf.predict([[hr, dy_num]])[0])} vehicles")
+    st.success(f"Predicted: {int(rf.predict([[hr, dy_num]])[0])} vehicles")
 
-    # LSTM
-    st.subheader("📈 LSTM Traffic Forecast")
+    st.subheader("📈 LSTM Forecast")
 
     seq = df_filtered.sort_values("Timestamp")["VehicleCount"].values.astype(float)
     window = 24
@@ -281,7 +243,7 @@ with tab3:
     last = torch.tensor(seq[-window:].reshape(1, window, 1), dtype=torch.float32)
     lstm_pred = model(last).item()
 
-    st.info(f"🔮 LSTM Forecast: {int(lstm_pred)} vehicles next hour")
+    st.info(f"🔮 Prediction: {int(lstm_pred)} vehicles next hour")
 
 # =========================================================
 # TAB 4 — UPLOAD
@@ -292,63 +254,3 @@ with tab4:
         st.success("Custom dataset loaded.")
     else:
         st.warning("Using default dataset.")
-
-# =========================================================
-# PREMIUM FOOTER — MID LABS (UPDATED)
-# =========================================================
-
-footer_html = """
-<div style='margin-top:60px; padding:40px 20px; text-align:center;
-            background: linear-gradient(135deg, #FF4B4B, #1E1E1E);
-            color:white; border-radius:16px;'>
-
-    <h2 style='font-weight:900; letter-spacing:1.2px; margin-bottom:25px; text-align:center;'>
-        🚀 MID LABS – LEADERSHIP TEAM
-    </h2>
-
-    <div style='display:flex; justify-content:center; gap:50px; flex-wrap:wrap;'>
-
-        <div style='text-align:center;'>
-            <img src='https://img.icons8.com/ios-filled/256/user-male-circle.png'
-                 style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
-                 box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
-            <p style='font-size:22px; font-weight:800;'>Muralidhar</p>
-            <p style='opacity:0.85; font-size:16px;'>CEO & Founder</p>
-        </div>
-
-        <div style='text-align:center;'>
-            <img src='https://img.icons8.com/ios-filled/256/user-female-circle.png'
-                 style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
-                 box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
-            <p style='font-size:22px; font-weight:800;'>Ishika</p>
-            <p style='opacity:0.85; font-size:16px;'>Chief Marketing Officer (CMO)</p>
-        </div>
-
-        <div style='text-align:center;'>
-            <img src='https://img.icons8.com/ios-filled/256/user.png'
-                 style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
-                 box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
-            <p style='font-size:22px; font-weight:800;'>Devakinandan</p>
-            <p style='opacity:0.85; font-size:16px;'>Chief Innovation Officer (CIO)</p>
-        </div>
-
-    </div>
-
-    <div style='margin:35px 0 15px; text-align:center;'>
-        <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/linkedin.png' width='32'></a>
-        <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/instagram-new.png' width='32'></a>
-        <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/domain.png' width='32'></a>
-    </div>
-
-    <p style='font-size:16px; opacity:0.9; text-align:center;'>
-        Made with ❤️ by <strong>MID LABS</strong>
-    </p>
-
-    <p style='font-size:13px; opacity:0.75; text-align:center;'>
-        © 2025 MID LABS. All rights reserved.
-    </p>
-
-</div>
-"""
-
-st.markdown(footer_html, unsafe_allow_html=True)
