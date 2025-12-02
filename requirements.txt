@@ -1,6 +1,6 @@
-streamlit
-pandas
-numpy
-plotly
+torch
 scikit-learn
-tensorflow==2.15.0
+numpy
+pandas
+plotly
+streamlit
