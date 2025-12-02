@@ -7,9 +7,8 @@ import torch
 import torch.nn as nn
 
 # =========================================================
-# PAGE CONFIG + THEME
+# PAGE CONFIG + CUSTOM THEME
 # =========================================================
-
 st.set_page_config(page_title="Traffic Lens AI", page_icon="🚦", layout="wide")
 
 PRIMARY = "#FF4B4B"
@@ -31,9 +30,8 @@ body { background-color: #F5F5F5; }
 """, unsafe_allow_html=True)
 
 # =========================================================
-# LOAD DATA + FILE UPLOAD
+# DATA LOADING + UPLOAD
 # =========================================================
-
 @st.cache_data
 def load_default():
     df = pd.read_csv("simulated_traffic_data.csv")
@@ -51,7 +49,6 @@ else:
 # =========================================================
 # HERO HEADER
 # =========================================================
-
 hero_html = f"""
 <div style="
     padding: 25px;
@@ -98,14 +95,13 @@ st.markdown("""
 # =========================================================
 # FILTERS
 # =========================================================
-
 st.sidebar.subheader("Filters")
 
 min_date = df["Timestamp"].min().date()
 max_date = df["Timestamp"].max().date()
 date_range = st.sidebar.date_input("Date Range", [min_date, max_date])
-
 start_date, end_date = date_range
+
 df = df[(df["Timestamp"].dt.date >= start_date) & (df["Timestamp"].dt.date <= end_date)]
 
 states = sorted(df["State"].unique())
@@ -121,7 +117,6 @@ if selected_city != "All Cities":
 # =========================================================
 # TABS
 # =========================================================
-
 tab1, tab2, tab3, tab4 = st.tabs([
     "📊 Dashboard",
     "🗺 Maps",
@@ -130,7 +125,7 @@ tab1, tab2, tab3, tab4 = st.tabs([
 ])
 
 # =========================================================
-# TAB 1 – DASHBOARD
+# TAB 1 — DASHBOARD
 # =========================================================
 with tab1:
 
@@ -140,6 +135,7 @@ with tab1:
     peak_hour = df_filtered.groupby("HourOfDay")["VehicleCount"].mean().idxmax()
     max_traffic = df_filtered["VehicleCount"].max()
 
+    # KPI CARDS
     kpi_html = f"""
     <div style="display:flex; gap:20px; justify-content:center; margin-bottom:25px">
 
@@ -171,9 +167,11 @@ with tab1:
 
     st.subheader("🔥 Heatmap")
     heatmap_df = df_filtered.groupby(["DayOfWeek","HourOfDay"])["VehicleCount"].mean().reset_index()
-    st.plotly_chart(px.density_heatmap(heatmap_df, x="HourOfDay", y="DayOfWeek",
-                                       z="VehicleCount", color_continuous_scale="Inferno"),
-                    use_container_width=True)
+    st.plotly_chart(px.density_heatmap(
+        heatmap_df, x="HourOfDay", y="DayOfWeek", z="VehicleCount",
+        color_continuous_scale="Inferno"),
+        use_container_width=True
+    )
 
     st.subheader("🏙 Compare Two Cities")
     c1 = st.selectbox("City 1", cities)
@@ -183,7 +181,7 @@ with tab1:
                     use_container_width=True)
 
 # =========================================================
-# TAB 2 – MAPS
+# TAB 2 — MAPS
 # =========================================================
 with tab2:
 
@@ -203,25 +201,32 @@ with tab2:
     df_map["Lon"] = df_map["City"].map(lambda c: city_coords[c][1])
 
     st.subheader("🗽 NYC Zoom Map")
-    st.plotly_chart(px.scatter_mapbox(df_map, lat="Lat", lon="Lon",
-                                      size="VehicleCount", color="VehicleCount",
-                                      zoom=6, color_continuous_scale="Turbo")
-                    .update_layout(mapbox_style="open-street-map"), use_container_width=True)
+    st.plotly_chart(
+        px.scatter_mapbox(df_map, lat="Lat", lon="Lon", size="VehicleCount",
+                          color="VehicleCount", zoom=6,
+                          color_continuous_scale="Turbo")
+        .update_layout(mapbox_style="open-street-map"),
+        use_container_width=True
+    )
 
     st.subheader("🎞 Animated Traffic Map")
-    st.plotly_chart(px.scatter_mapbox(df_map, lat="Lat", lon="Lon",
-                                      animation_frame="HourOfDay",
-                                      size="VehicleCount", color="VehicleCount",
-                                      zoom=4, color_continuous_scale="Inferno")
-                    .update_layout(mapbox_style="open-street-map"), use_container_width=True)
+    st.plotly_chart(
+        px.scatter_mapbox(df_map, lat="Lat", lon="Lon",
+                          animation_frame="HourOfDay",
+                          size="VehicleCount", color="VehicleCount",
+                          zoom=4, color_continuous_scale="Inferno")
+        .update_layout(mapbox_style="open-street-map"),
+        use_container_width=True
+    )
 
 # =========================================================
-# TAB 3 – ML PREDICTIONS
+# TAB 3 — ML PREDICTIONS
 # =========================================================
 with tab3:
 
     st.header("🤖 ML Predictions")
 
+    # RandomForest
     st.subheader("🌲 RandomForest Prediction")
 
     ml = df[["HourOfDay","DayOfWeek","VehicleCount"]].copy()
@@ -239,7 +244,8 @@ with tab3:
 
     st.success(f"RandomForest Prediction: {int(rf.predict([[hr, dy_num]])[0])} vehicles")
 
-    st.subheader("📈 LSTM Forecast")
+    # LSTM
+    st.subheader("📈 LSTM Traffic Forecast")
 
     seq = df_filtered.sort_values("Timestamp")["VehicleCount"].values.astype(float)
     window = 24
@@ -278,7 +284,7 @@ with tab3:
     st.info(f"🔮 LSTM Forecast: {int(lstm_pred)} vehicles next hour")
 
 # =========================================================
-# TAB 4 – UPLOAD
+# TAB 4 — UPLOAD
 # =========================================================
 with tab4:
     st.header("📁 Upload Custom Data")
@@ -288,55 +294,61 @@ with tab4:
         st.warning("Using default dataset.")
 
 # =========================================================
-# PREMIUM FOOTER — MID LABS
+# PREMIUM FOOTER — MID LABS (UPDATED)
 # =========================================================
 
-footer = """
-<h2 style='font-weight:900; letter-spacing:1.2px; margin-bottom:25px; text-align:center;'>
-    🚀 MID LABS – LEADERSHIP TEAM
-</h2>
+footer_html = """
+<div style='margin-top:60px; padding:40px 20px; text-align:center;
+            background: linear-gradient(135deg, #FF4B4B, #1E1E1E);
+            color:white; border-radius:16px;'>
 
-<div style='display:flex; justify-content:center; gap:50px; flex-wrap:wrap;'>
+    <h2 style='font-weight:900; letter-spacing:1.2px; margin-bottom:25px; text-align:center;'>
+        🚀 MID LABS – LEADERSHIP TEAM
+    </h2>
 
-    <div style='text-align:center;'>
-        <img src='https://img.icons8.com/ios-filled/256/user-male-circle.png'
-             style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
-             box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
-        <p style='font-size:22px; font-weight:800;'>Muralidhar</p>
-        <p style='opacity:0.85; font-size:16px;'>CEO & Founder</p>
+    <div style='display:flex; justify-content:center; gap:50px; flex-wrap:wrap;'>
+
+        <div style='text-align:center;'>
+            <img src='https://img.icons8.com/ios-filled/256/user-male-circle.png'
+                 style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
+                 box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
+            <p style='font-size:22px; font-weight:800;'>Muralidhar</p>
+            <p style='opacity:0.85; font-size:16px;'>CEO & Founder</p>
+        </div>
+
+        <div style='text-align:center;'>
+            <img src='https://img.icons8.com/ios-filled/256/user-female-circle.png'
+                 style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
+                 box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
+            <p style='font-size:22px; font-weight:800;'>Ishika</p>
+            <p style='opacity:0.85; font-size:16px;'>Chief Marketing Officer (CMO)</p>
+        </div>
+
+        <div style='text-align:center;'>
+            <img src='https://img.icons8.com/ios-filled/256/user.png'
+                 style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
+                 box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
+            <p style='font-size:22px; font-weight:800;'>Devakinandan</p>
+            <p style='opacity:0.85; font-size:16px;'>Chief Innovation Officer (CIO)</p>
+        </div>
+
     </div>
 
-    <div style='text-align:center;'>
-        <img src='https://img.icons8.com/ios-filled/256/user-female-circle.png'
-             style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
-             box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
-        <p style='font-size:22px; font-weight:800;'>Ishika</p>
-        <p style='opacity:0.85; font-size:16px;'>Chief Marketing Officer (CMO)</p>
+    <div style='margin:35px 0 15px; text-align:center;'>
+        <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/linkedin.png' width='32'></a>
+        <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/instagram-new.png' width='32'></a>
+        <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/domain.png' width='32'></a>
     </div>
 
-    <div style='text-align:center;'>
-        <img src='https://img.icons8.com/ios-filled/256/user.png'
-             style='width:110px; height:110px; border-radius:50%; border:3px solid #FFD700;
-             box-shadow:0px 4px 10px rgba(0,0,0,0.2);'>
-        <p style='font-size:22px; font-weight:800;'>Devakinandan</p>
-        <p style='opacity:0.85; font-size:16px;'>Chief Innovation Officer (CIO)</p>
-    </div>
+    <p style='font-size:16px; opacity:0.9; text-align:center;'>
+        Made with ❤️ by <strong>MID LABS</strong>
+    </p>
+
+    <p style='font-size:13px; opacity:0.75; text-align:center;'>
+        © 2025 MID LABS. All rights reserved.
+    </p>
 
 </div>
-
-<div style='margin:35px 0 15px; text-align:center;'>
-    <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/linkedin.png' width='32'></a>
-    <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/instagram-new.png' width='32'></a>
-    <a href='#' style='margin:0 15px;'><img src='https://img.icons8.com/ios-filled/50/domain.png' width='32'></a>
-</div>
-
-<p style='font-size:16px; opacity:0.9; text-align:center;'>
-    Made with ❤️ by <strong>MID LABS</strong>
-</p>
-
-<p style='font-size:13px; opacity:0.75; text-align:center;'>
-    © 2025 MID LABS. All rights reserved.
-</p>
 """
 
-st.markdown(footer, unsafe_allow_html=True)
+st.markdown(footer_html, unsafe_allow_html=True)
