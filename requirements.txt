@@ -1,6 +1,6 @@
-torch
-scikit-learn
-numpy
-pandas
-plotly
 streamlit
+pandas
+numpy
+plotly
+scikit-learn
+torch
